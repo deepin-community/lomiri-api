@@ -1,0 +1,4844 @@
+2020-09-24 13:53:07 +0200 Mike Gabriel
+
+	* release 0.1.1 (HEAD -> master, tag: 0.1.1)
+
+2020-02-26 22:34:07 +0100 Mike Gabriel (188b8dc)
+
+	* NEWS: Fix project name.
+
+2020-09-22 03:44:26 +0200 Marius Gripsgard (3672c8f)
+
+	* Merge remote-tracking branch 'old-origin/xenial_-_edge' into HEAD
+
+2020-09-22 03:39:04 +0200 Marius Gripsgard (5958f37)
+
+	* Merge remote-tracking branch 'old-origin/xenial' into HEAD
+
+2020-03-01 13:52:16 +0100 Marius Gripsgard (741638e)
+
+	* Fix api version to match package version
+
+2020-03-01 13:47:32 +0100 Marius Gripsgard (5f5fdf1)
+
+	* Make sure to export dbus and snap apis
+
+2020-02-28 17:00:35 +0100 Marius Gripsgard (4c1e6d3)
+
+	* Add dbus sanitize helpers
+
+2020-09-22 02:53:32 +0200 Marius Gripsgard (ad56344)
+
+	* Merge pull request #25 from z3ntu/xenial_-_giomemorytest
+
+2020-09-22 00:48:30 +0200 Marius Gripsgard (a257177)
+
+	* Merge pull request #15 from ubports/xenial_-_edge_-_multiscreen
+
+2019-04-23 18:36:42 +0200 Marius Gripsgard (57f17b0)
+
+	* Added Surface Manager signals and surfaceFor(window)
+
+2019-04-23 18:31:53 +0200 Marius Gripsgard (e8d1779)
+
+	* API requirements for multiple screen support
+
+2020-05-12 21:56:23 +0200 Marius Gripsgard (e2994d7)
+
+	* Add AttachedState state enum
+
+2020-04-19 12:36:15 +0200 Luca Weiss (05c06dd)
+
+	* GioMemory_test: print error from glib
+
+2020-04-12 23:44:11 +0200 Pino Toscano (a207c22)
+
+	* tests: do not hardcode errno values/texts
+
+2020-02-27 18:44:48 +0100 Marius Gripsgard (c302d2c)
+
+	* Remove smart pointer for GRefString
+
+2020-02-28 11:55:50 +0100 Mike Gabriel (8f90f3b)
+
+	* Set SOVERSION=0 (instead of 1).
+
+2020-02-27 15:30:01 +0100 Marius Gripsgard (967302f)
+
+	* Fix changelog
+
+2020-02-27 15:27:57 +0100 Marius Gripsgard (20550b9)
+
+	* Fix changelog
+
+2020-02-26 21:07:37 +0000 Dalton Durst (951e925)
+
+	* Update changelog
+
+2020-02-26 21:23:40 +0100 UBports Team (8eb7057)
+
+	* release 0.1.0 (tag: 0.1.0)
+
+2020-02-26 21:23:25 +0100 Mike Gabriel (f4a96ef)
+
+	* debian/*: Pre-release packaging update.
+
+2020-02-26 08:57:36 +0100 Marius Gripsgard (eb6b5b4)
+
+	* Rename to lomiri
+
+2019-12-28 01:56:57 +0100 Marius Gripsgard (8252b92)
+
+	* Update old qml module packages
+
+2020-02-26 07:36:26 +0100 Marius Gripsgard (9893015)
+
+	* Merge pull request #19 from z3ntu/xenial_-_bionic-merge
+
+2019-07-21 20:58:15 +0200 Luca Weiss (b596010)
+
+	* GlibMemory.h: Use the correct macro (#17)
+
+2019-07-21 13:33:06 -0400 Rodney (c7e192c)
+
+	* Replace re-import hack with manual listing. (#16)
+
+2019-01-29 18:21:46 +0100 Luca Weiss (52f1e50)
+
+	* Replace home-grown gtest config with cmake-extras
+
+2020-02-19 15:21:09 -0500 Rodney (e2dbc86)
+
+	* Resolve file conflict with Conflicts/Replaces. (#21)
+
+2019-02-10 13:22:43 -0600 Dalton Durst (84cfc45)
+
+	* Add empty folders to make header tests happy
+
+2019-02-10 12:43:26 -0600 Dalton Durst (6e89931)
+
+	* Remove PowerPC config
+
+2019-01-27 18:33:12 +0100 Luca Weiss (f4466f1)
+
+	* Migrate to cmake-extras
+
+2019-06-30 16:44:03 +0200 Florian Leeber (1dbfc73)
+
+	* Merge pull request #14 from ubports/xenial_-_edge_-_fclose
+
+2019-06-29 17:52:45 +0200 Marius Gripsgard (ec9636d)
+
+	* Add forceClose method to mirSurface api
+
+2019-04-27 00:11:54 +0200 Marius Gripsgard (98cb672)
+
+	* Kill scope api and clean up (#12)
+
+2018-11-15 23:37:59 +0100 Marius Gripsgard (ec799d7)
+
+	* Ignore Jenkinsfile as part of test
+
+2018-11-15 23:31:49 +0100 Marius Gripsgard (c86e256)
+
+	* Build for xenial edge
+
+2018-09-18 14:40:35 +0300 Ivan Semkin (588b667)
+
+	* Merge pull request #5 from dobey/fix-glib-autocleanup
+
+2018-09-17 21:00:08 -0400 Rodney Dawes (9646735)
+
+	* Add typedefs for the pointers to new type.
+
+2018-09-17 17:04:49 -0400 Rodney Dawes (9e7c453)
+
+	* Fix autoclean conflict with new glib.
+
+2018-06-12 18:30:55 +0200 Marius Gripsgard (31cad5a)
+
+	* Merge pull request #3 from vanyasem/bionic
+
+2018-06-07 22:51:14 +0300 Ivan Semkin (02ae020)
+
+	* Fix build with Qt 5.11_beta3 (dropping qt5_use_modules)
+
+2018-05-16 09:47:51 +0200 Jan Sprinz (b56d9b0)
+
+	* Merge pull request #1 from dobey/fix-test
+
+2018-05-15 17:07:38 -0400 Rodney Dawes (89b77f9)
+
+	* Only add internal header tests if exists.
+
+2018-02-21 00:08:25 +0100 Marius Gripsgard (16c324d)
+
+	* Fix gcc 7
+
+2018-02-21 00:00:55 +0100 Marius Gripsgard (04a9aa4)
+
+	* Merge remote-tracking branch 'lp/master' into bionic
+
+2018-02-20 23:53:49 +0100 Marius Gripsgard (159c67b)
+
+	* Imported to UBports
+
+2017-04-04 09:37:43 +0000 Bileto Bot (34d39f1)
+
+	* Releasing 8.7+17.04.20170404-0ubuntu1
+
+2017-04-04 09:37:22 +0000 Rodney Dawes (f092ac7)
+
+	* Add utility function to prepend $SNAP to directory paths.
+
+2017-04-04 09:37:08 +0000 Pete Woods (581f5bd)
+
+	* unity::util - Add glib signal managers
+
+2017-04-04 09:37:01 +0000 Bileto Bot (4b38af0)
+
+	* Add Glib and GObject Assigner helpers.
+
+2017-04-04 10:33:11 +0100 Pete Woods (de73853)
+
+	* Fix whitespace error
+
+2017-04-04 10:27:33 +0100 Pete Woods (e9c92ca)
+
+	* Add docs
+
+2017-04-04 10:14:12 +0100 Pete Woods (ea2a9fc)
+
+	* Tweak docs
+
+2017-04-04 10:13:18 +0100 Pete Woods (7c070d6)
+
+	* Fix null assignment behaviour in assigner classes
+
+2017-04-04 10:27:11 +0200 Michael Zanetti (babb590)
+
+	* bump version numbers
+
+2017-04-03 16:14:06 +0200 Michael Zanetti (3b5d829)
+
+	* merge trunk
+
+2017-03-28 14:46:21 -0400 Rodney Dawes (a50e2b2)
+
+	* Fixes per review.
+
+2017-03-25 22:40:06 +0000 Pete Woods (f6c06e3)
+
+	* Fix up tests, use libqtdbustest for temporary test bus
+
+2017-03-24 16:43:10 +0000 Pete Woods (780ee42)
+
+	* unity::util - Add signal management helpers
+
+2017-03-24 16:37:55 +0000 Pete Woods (84172f3)
+
+	* A bit more cleanup
+
+2017-03-24 10:27:24 +0000 Pete Woods (8d32e75)
+
+	* Add changelog message
+
+2017-03-23 11:10:37 +0000 Pete Woods (1036749)
+
+	* More cleaning up
+
+2017-03-23 11:00:49 +0000 Pete Woods (e59cc33)
+
+	* Mix in James's Assigner ideas and clean up a little more
+
+2017-03-23 13:27:02 +1000 Michi Henning (1be123c)
+
+	* Fixed typo in comment.
+
+2017-03-23 13:21:27 +1000 Michi Henning (e657f31)
+
+	* Using SFINAE now to avoid instantiating an uncalled member
+          function. Minor style fixes.
+
+2017-03-23 10:49:00 +1000 Michi Henning (470f645)
+
+	* Simplified templates.
+
+2017-03-22 16:50:44 +0000 Pete Woods (f1032f7)
+
+	* Respond to James' suggestion of adding factory methods to
+          auto-deduce template arguments
+
+2017-03-22 13:52:11 +0000 Pete Woods (82d411a)
+
+	* Use implementation from michi's review, adding separate uptr and
+          sptr assigners
+
+2017-03-21 13:50:27 -0400 Rodney Dawes (f42b1c0)
+
+	* Add utility function to prepend $SNAP to directory paths.
+
+2017-03-21 14:31:55 +0000 Pete Woods (be6bce1)
+
+	* Add GObject assigner
+
+2017-03-21 14:31:38 +0000 Pete Woods (b082bc9)
+
+	* Add gchar and gcharv management definitions
+
+2017-03-20 16:16:30 +0000 Pete Woods (58100f9)
+
+	* Remove, apprently unreliable, string comparison
+
+2017-03-20 15:14:19 +0000 Pete Woods (d8ae99e)
+
+	* Add assigner class to support common GError usage pattern
+
+2017-03-17 11:08:20 +0000 Bileto Bot (9f9652b)
+
+	* Releasing 8.6+17.04.20170317-0ubuntu1
+
+2017-03-17 11:07:57 +0000 Bileto Bot (2a0599d)
+
+	* MirSurfaceInterface::allowClientResize
+
+2017-03-17 11:07:49 +0000 Pete Woods (ff6c6b5)
+
+	* unity::util - unique_gobject and share_gobject now throw for
+          floating references (LP: #1672657)
+
+2017-03-17 11:07:44 +0000 Bileto Bot (18782f9)
+
+	* Add appId property to MirSurfaceInterface
+
+2017-03-17 11:07:35 +0000 Bileto Bot (398e381)
+
+	* Add RoleIsPrivate to launcher's quicklist entries
+
+2017-03-17 10:20:10 +0000 Pete Woods (0740012)
+
+	* Allow make_gobject to construct initially unowned objects
+
+2017-03-16 14:25:46 +0000 Pete Woods (dd047be)
+
+	* unique_gobject and share_gobject now throw for floating references
+
+2017-03-15 17:44:18 +0100 Michael Zanetti (43fa413)
+
+	* Add appId property to MirSurfaceInterface
+
+2017-03-13 14:53:31 -0300 Daniel d'Andrada (535c38b)
+
+	* MirSurfaceInterface::allowClientResize
+
+2017-03-13 14:48:15 -0300 Daniel d'Andrada (2b8594d)
+
+	* merge lp:~mzanetti/unity-api/private-quicklist-entries
+
+2017-02-27 12:47:56 +0100 Michael Zanetti (7023f64)
+
+	* add popularity field to launcheritems
+
+2017-02-27 12:41:55 +0100 Michael Zanetti (9d0bb48)
+
+	* add some comment about the new role
+
+2017-02-27 12:28:02 +0100 Michael Zanetti (35e9503)
+
+	* Q_ENUMS -> Q_ENUM
+
+2017-02-24 17:10:44 +0100 Michael Zanetti (49aa27e)
+
+	* merge prereq
+
+2017-02-24 13:57:54 +0100 Michael Zanetti (a1b6c56)
+
+	* bump versions
+
+2017-02-24 13:55:28 +0100 Michael Zanetti (d7a17b6)
+
+	* add RoleIsPrivate to the launcher's quicklistmodel
+
+2017-02-23 11:22:38 +0000 Bileto Bot (9f59015)
+
+	* Releasing 8.4+17.04.20170223-0ubuntu1
+
+2017-02-23 11:22:14 +0000 Bileto Bot (ba875d1)
+
+	* unity::util - Make Glib and GObject memory management utilities
+          handle NULL quietly.
+
+2017-02-23 11:18:54 +0000 Pete Woods (50866fb)
+
+	* Trying out the deleter methods as charles suggested, making
+          CRITICAL be a fatal error so we know if the deleter logic
+          worked (g_variant_unref logs CRITICAL on null)
+
+2017-02-21 13:12:43 +0000 Pete Woods (070dcb5)
+
+	* Really fix the changelog this time
+
+2017-02-21 10:28:29 +0000 Pete Woods (9e67507)
+
+	* Fix changelog
+
+2017-02-20 16:51:06 +0000 Pete Woods (77f1594)
+
+	* unity::util - Make Glib and GObject memory management utilities
+          handle NULL quietly.
+
+2017-02-17 14:12:04 +0000 Bileto Bot (964d9f5)
+
+	* Releasing 8.3+17.04.20170217-0ubuntu1
+
+2017-02-17 14:11:49 +0000 Bileto Bot (4e5af19)
+
+	* unity::util - Add typedef macros to GlibMemory to make method and
+          member variable definitions easier.
+
+2017-02-17 13:40:58 +0000 Pete Woods (aaa4747)
+
+	* unity::util - Add typedef macros to GlibMemory to make method and
+          member variable definitions easier.
+
+2017-02-06 09:11:04 +0000 Bileto Bot (a20b84b)
+
+	* Releasing 8.2+17.04.20170206-0ubuntu1
+
+2017-02-06 09:10:36 +0000 Bileto Bot (941fcf1)
+
+	* MirSurfaceInterface: add childSurfaceList and parentSurface
+
+2017-01-26 09:07:35 -0200 Daniel d'Andrada (8e5df5f)
+
+	* MirSurfaceInterface: add childSurfaceList and parentSurface
+
+2017-01-20 17:08:56 +0000 Bileto Bot (3dc2810)
+
+	* Releasing 8.1+17.04.20170120.1-0ubuntu1
+
+2017-01-20 17:08:36 +0000 Bileto Bot (b52b165)
+
+	* Added Mir::currentKeymap
+
+2017-01-19 13:54:51 +0000 Bileto Bot (5bd19f0)
+
+	* Releasing 8.1+17.04.20170119.1-0ubuntu1
+
+2017-01-19 13:54:21 +0000 Bileto Bot (5ddbb86)
+
+	* unity::util - add Glib memory management utility functions.
+
+2017-01-19 13:54:08 +0000 Bileto Bot (148d780)
+
+	* unity::util - add GObject shared memory utility classes and helper
+          methods.
+
+2017-01-19 13:52:32 +0000 Pete Woods (5705791)
+
+	* unity::util - add Glib memory management utility functions.
+
+2017-01-19 13:49:43 +0000 Pete Woods (1e01693)
+
+	* unity::util - add GObject shared memory utility classes and helper
+          methods.
+
+2017-01-16 11:54:30 +0100 Lukáš Tinkl (0763822)
+
+	* merge trunk
+
+2017-01-10 06:42:46 +0000 Bileto Bot (d56c9a2)
+
+	* Releasing 8.0+17.04.20170110.1-0ubuntu1
+
+2017-01-10 06:41:57 +0000 Albert Astals Cid (f260564)
+
+	* Use the new Q_ENUM (Qt 5.5)
+
+2017-01-10 06:41:33 +0000 Albert Astals Cid (ef542f1)
+
+	* Enable -Wsuggest-override
+
+2017-01-10 06:41:09 +0000 Nick Dedekind (de92270)
+
+	* Fully qualify pointer type namespaces in signals so that the
+          parameters can be used in qml.
+
+2017-01-02 15:48:58 +0100 Lukáš Tinkl (33ea21b)
+
+	* merge trunk
+
+2016-12-23 15:58:30 +0000 Nick Dedekind (bcc2a8a)
+
+	* fully qualify namespaces for use in qml
+
+2016-12-23 11:17:48 +0100 Albert Astals Cid (701c8a1)
+
+	* Q_FLAG is also the moderm way of Q_FLAGS
+
+2016-12-23 10:31:16 +0100 Albert Astals Cid (b1498c3)
+
+	* Some more i missed somehow
+
+2016-12-23 10:14:43 +0100 Albert Astals Cid (18d05f5)
+
+	* Use the new Q_ENUM (Qt 5.5)
+
+2016-12-23 09:50:23 +0100 Albert Astals Cid (24d5952)
+
+	* Merge
+
+2016-12-15 17:36:11 +0100 Lukáš Tinkl (2ae7dfd)
+
+	* merge trunk
+
+2016-12-15 16:16:07 +0000 Bileto Bot (d54626f)
+
+	* Releasing 8.0+17.04.20161215-0ubuntu1
+
+2016-12-15 16:15:35 +0000 Bileto Bot (c9f2f28)
+
+	* unity::shel::application - changes for the miral way of doing
+          things
+
+2016-12-14 17:01:26 +0100 Albert Astals Cid (25fa845)
+
+	* remove useless commented out code
+
+2016-12-14 16:57:28 +0100 Albert Astals Cid (052e8b8)
+
+	* Enable -Wsuggest-override
+
+2016-12-12 14:52:21 -0200 Daniel d'Andrada (11a1941)
+
+	* unity::shel::application - changes for the miral way of doing
+          things
+
+2016-12-07 09:23:57 -0200 Daniel d'Andrada (3af6c49)
+
+	* Update useless mock
+
+2016-12-07 09:11:32 -0200 Daniel d'Andrada (3794ab3)
+
+	* make it const
+
+2016-12-06 15:06:08 +0100 Lukáš Tinkl (6a01e05)
+
+	* merge trunk and bump
+
+2016-12-05 15:20:32 +0000 Bileto Bot (b29d57a)
+
+	* Releasing 7.121+17.04.20161205-0ubuntu1
+
+2016-12-05 15:20:13 +0000 Bileto Bot (b11f9ee)
+
+	* Add AppDrawerModelInterface
+
+2016-12-01 09:42:06 -0200 Daniel d'Andrada (52636f1)
+
+	* Merge trunk
+
+2016-11-30 11:43:52 +0100 Michael Zanetti (9895c9e)
+
+	* bump versions again after merging
+
+2016-11-30 11:38:23 +0100 Michael Zanetti (ccc16e7)
+
+	* merge in 22022 as prereq
+
+2016-11-24 10:54:33 -0200 Daniel d'Andrada (21d6030)
+
+	* MirSurfaceInterface::activate
+
+2016-11-23 12:11:04 +0000 Bileto Bot (dfbcfe8)
+
+	* Releasing 7.120+17.04.20161123-0ubuntu1
+
+2016-11-23 12:10:19 +0000 Marcus Tomlinson (70821bd)
+
+	* Don't rely on glib error message strings in IniParser_test (LP:
+          #1642673)
+
+2016-11-23 12:10:03 +0000 Bileto Bot (8439b32)
+
+	* Add hasSeparator role to quicklistModel.
+
+2016-11-22 16:17:50 -0200 Daniel d'Andrada (4a13fa5)
+
+	* MirSurfaceInterface::activate
+
+2016-11-18 08:42:24 +0200 Marcus Tomlinson (792b08f)
+
+	* Check for parts of error string we output
+
+2016-11-18 07:33:52 +0200 Marcus Tomlinson (ee2dd4b)
+
+	* Clean up
+
+2016-11-17 19:23:22 +0200 Marcus Tomlinson (fb24db9)
+
+	* Don't rely on glib error message strings in IniParser_test
+
+2016-11-17 11:12:24 -0200 Daniel d'Andrada (c3bc7f8)
+
+	* Add SurfaceManager and remove TopLevelWindowModel and Window
+
+2016-11-17 10:23:32 -0200 Daniel d'Andrada (7cfe892)
+
+	* Update useless tests
+
+2016-11-17 12:45:57 +0100 Michael Zanetti (04c1294)
+
+	* include qstringlist manually to make it build on vivid
+
+2016-11-16 19:52:33 +0100 Michael Zanetti (b860bed)
+
+	* add support for keywords
+
+2016-11-14 18:35:23 -0200 Daniel d'Andrada (53afea7)
+
+	* Add SurfaceManager and remove TopLevelWindowModel and Window
+
+2016-11-10 19:15:02 +0100 Michael Zanetti (40600c8)
+
+	* bump versioning
+
+2016-11-10 19:13:30 +0100 Michael Zanetti (9d4acc2)
+
+	* add mocks and tests
+
+2016-11-07 11:58:38 -0200 Daniel d'Andrada (5aa28b7)
+
+	* Fix documentation
+
+2016-11-04 13:28:41 +0100 Michael Zanetti (9cb5dc0)
+
+	* add virtual dtor
+
+2016-11-04 13:26:58 +0100 Michael Zanetti (6060088)
+
+	* add copyright header
+
+2016-11-04 11:49:53 +0100 Michael Zanetti (b631dbe)
+
+	* add usage role
+
+2016-11-03 16:12:55 -0200 Daniel d'Andrada (acaeee7)
+
+	* Bump to 8.0
+
+2016-11-03 13:38:26 +0100 Michael Zanetti (5d3a69a)
+
+	* add AppDrawerModelInterface.h
+
+2016-11-03 10:25:43 -0200 Daniel d'Andrada (cc8aa80)
+
+	* unity::shell::application - changes for the miral way of doing
+          things
+
+2016-11-01 17:27:19 -0200 Daniel d'Andrada (031b6a2)
+
+	* unity::shel::application - changes for the miral way of doing
+          things
+
+2016-10-28 13:51:20 +0200 Andrea Azzarone (b783c82)
+
+	* Bump API
+
+2016-10-28 13:14:37 +0200 Andrea Azzarone (dac4944)
+
+	* Add a hasSeparator role to quicklistModel which determines if the
+          entry should have a separator.
+
+2016-10-06 10:22:20 -0300 Daniel d'Andrada (28b4f18)
+
+	* Changes for the miral way of doing things
+
+2016-09-30 13:22:31 +0200 Lukáš Tinkl (0af6b73)
+
+	* added Mir::currentKeymap
+
+2016-09-09 14:39:28 +0000 Bileto Bot (39a73d1)
+
+	* Releasing 7.119+16.10.20160909-0ubuntu1
+
+2016-09-09 14:39:00 +0000 Bileto Bot (c7a6a28)
+
+	* Added MirSurfaceInterface::confinesMousePointer
+
+2016-09-05 10:21:24 -0300 Daniel d'Andrada (4909c25)
+
+	* Added MirSurfaceInterface::confinesMousePointer
+
+2016-08-30 13:40:31 +0000 Bileto Bot (1727e16)
+
+	* Releasing 7.118+16.10.20160830-0ubuntu1
+
+2016-08-30 13:39:55 +0000 Bileto Bot (780ea80)
+
+	* Added persistent Id property for MirSurface
+
+2016-08-22 09:49:02 -0300 Nick Dedekind (ff8112f)
+
+	* Added persistent Id property for MirSurface
+
+2016-08-19 22:16:23 +0000 Bileto Bot (b14f0e4)
+
+	* Releasing 7.117+16.10.20160819-0ubuntu1
+
+2016-08-19 22:16:03 +0000 Michi Henning (5b55d5e)
+
+	* Removed empty unreleased entry from changelog. (LP: #1613563)
+
+2016-08-17 09:06:00 +1000 Michi Henning (0126570)
+
+	* Fixed syntax error in changelog.
+
+2016-08-10 08:20:08 +0000 Bileto Bot (ffd8b1a)
+
+	* Releasing 7.117+16.10.20160810-0ubuntu1
+
+2016-08-10 08:19:47 +0000 Bileto Bot (9fcc2c6)
+
+	* * ApplicationInfoInterface: remove "stage" property *
+          ApplicationManagerInterface: remove "stage" role
+
+2016-08-05 04:08:06 +0000 Bileto Bot (fd7afab)
+
+	* Releasing 7.116+16.10.20160805-0ubuntu1
+
+2016-08-05 04:07:31 +0000 James Henstridge (0bda26b)
+
+	* Remove unnecessary Boost dependency from package.
+
+2016-08-02 08:40:57 +0800 James Henstridge (6be0f8b)
+
+	* Remove unnecessary Boost dependency from package.
+
+2016-07-30 21:18:51 +0000 Bileto Bot (d594a9f)
+
+	* Releasing 7.116+16.10.20160730-0ubuntu1
+
+2016-07-30 21:18:09 +0000 Michał Sawicz (77a8e30)
+
+	* Don't run tests on powerpc (LP: #1606927)
+
+2016-07-30 21:17:56 +0000 Stephen Kelly (821f88e)
+
+	* Silence some gcc warnings.
+
+2016-07-29 18:16:38 +0200 Michał Sawicz (5a952d9)
+
+	* Don't run tests on powerpc (LP: #1606927)
+
+2016-07-25 15:43:51 -0300 Daniel d'Andrada (c853dff)
+
+	* Update tests
+
+2016-07-25 10:56:35 -0300 Daniel d'Andrada (d197dc1)
+
+	* Remove ApplicationInfoInterface.stage property
+
+2016-06-20 21:36:16 +0200 Stephen Kelly (2561025)
+
+	* Fix use of MockOptionSelectorFilter constructor
+
+2016-06-20 14:39:15 +0000 Bileto Bot (4ae2d15)
+
+	* Releasing 7.116+16.10.20160620-0ubuntu1
+
+2016-06-20 14:39:02 +0000 Bileto Bot (1492ed4)
+
+	* MirSurfaceInterface: add inputBounds property
+
+2016-06-20 11:06:02 -0300 Daniel d'Andrada (0d299b2)
+
+	* MirSurfaceInterface: add inputBounds property
+
+2016-06-14 08:34:16 +0000 Bileto Bot (aad7692)
+
+	* Releasing 7.115+16.10.20160614-0ubuntu1
+
+2016-06-14 08:33:41 +0000 Bileto Bot (27bdb31)
+
+	* Drop Launchermodel::setAlerting, it's not needed
+
+2016-06-14 08:33:36 +0000 Bileto Bot (70987d7)
+
+	* Add ApplicationInfoInterface::surfaceCount property
+
+2016-06-09 19:27:32 +0100 Nick Dedekind (1fc63fa)
+
+	* added MirSurfaceInterface::persistentId
+
+2016-06-03 13:20:51 +0200 Michael Zanetti (fca8dc4)
+
+	* bump debian changelog
+
+2016-06-03 13:20:04 +0200 Michael Zanetti (5e91d72)
+
+	* that wasn't needed
+
+2016-06-03 13:15:35 +0200 Michael Zanetti (58c865d)
+
+	* bump debian/changelog
+
+2016-06-03 13:12:50 +0200 Michael Zanetti (3ebc1e7)
+
+	* merge trunk, bump version
+
+2016-06-03 12:46:58 +0200 Michael Zanetti (d165f30)
+
+	* bump version once more
+
+2016-06-03 12:43:54 +0200 Michael Zanetti (9797626)
+
+	* merge trunk
+
+2016-05-25 06:02:38 +0000 CI Train Bot (7d79d58)
+
+	* Releasing 7.113+16.10.20160525-0ubuntu1
+
+2016-05-25 06:02:36 +0000 Albert Astals Cid (17939cd)
+
+	* Mark roleNames as override
+
+2016-05-25 06:02:31 +0000 Michi Henning (b6cc21d)
+
+	* Re-enabled license/copyright test for xenial. Fixes: #1194867
+          Approved by: Marcus Tomlinson, Unity8 CI Bot
+
+2016-05-25 06:02:26 +0000 Daniel d'Andrada (53d9cb9)
+
+	* Remove hotspot property from MirMousePointerInterface
+
+2016-05-19 18:08:39 +0200 Michael Zanetti (2ca18d4)
+
+	* merge prereq
+
+2016-05-19 16:53:19 +0200 Michael Zanetti (0f6193d)
+
+	* bump application API version again
+
+2016-05-19 12:17:07 +0200 Michael Zanetti (3b1a5be)
+
+	* merge trunk
+
+2016-05-18 17:51:23 -0300 Daniel d'Andrada (9c9cf24)
+
+	* Remove hotspot property from MirMousePointerInterface
+
+2016-05-18 15:43:40 +0200 Michael Zanetti (418f4a0)
+
+	* Drop Launchermodel::setAlerting, it's not needed
+
+2016-05-18 15:43:29 +0200 Michael Zanetti (111e80b)
+
+	* merge prereq
+
+2016-05-18 15:35:36 +0200 Michael Zanetti (68079c7)
+
+	* update tests & mocks
+
+2016-05-18 09:31:07 +0000 CI Train Bot (c77ee9e)
+
+	* Releasing 7.112+16.04.20160518-0ubuntu1
+
+2016-05-18 09:31:04 +0000 Daniel d'Andrada (3f800b4)
+
+	* Moved prompt surfaces to ApplicationInfo and added
+          MirSurfaceListInterface::first
+
+2016-05-17 16:39:52 -0300 Daniel d'Andrada (27f2459)
+
+	* update application version
+
+2016-05-17 16:21:33 -0300 Daniel d'Andrada (95c1010)
+
+	* Added MirSurfaceListInterface::first property
+
+2016-05-17 09:55:00 -0300 Daniel d'Andrada (435122f)
+
+	* Move promptSurfaceList from MirSurfaceInterface to
+          ApplicationInfoInterface
+
+2016-05-13 11:35:14 +0200 Albert Astals Cid (a0618f9)
+
+	* Mark as override
+
+2016-05-11 12:48:13 +0200 Michael Zanetti (ca7db7f)
+
+	* add forgotten property
+
+2016-05-11 10:19:30 +0200 Michael Zanetti (ca0573c)
+
+	* fix typo in apidoc
+
+2016-05-10 19:11:07 +0200 Michael Zanetti (21b4a17)
+
+	* add missing file
+
+2016-05-10 19:08:29 +0200 Michael Zanetti (50444b7)
+
+	* add missing change
+
+2016-05-10 17:11:40 +0200 Michael Zanetti (968c4a8)
+
+	* bump launcher api too
+
+2016-05-09 18:44:19 +0200 Michael Zanetti (78c274d)
+
+	* Add ApplicationInfoInterface::surfaceCount property
+
+2016-04-26 15:31:50 +0000 CI Train Bot (3d540d4)
+
+	* Releasing 7.111+16.04.20160426.2-0ubuntu1
+
+2016-04-26 15:31:46 +0000 Pawel Stolowski (4ec3da4)
+
+	* Added ExpandableFilterWidgetInterface. Approved by: Albert Astals
+          Cid
+
+2016-04-26 15:31:41 +0000 Pawel Stolowski (6c650c8)
+
+	* Added RoleSocialActions. Approved by: Marcus Tomlinson
+
+2016-04-26 17:27:49 +0200 Pawel Stolowski (197696f)
+
+	* Merged social attr
+
+2016-04-26 17:27:38 +0200 Pawel Stolowski (968819a)
+
+	* Fix version
+
+2016-04-26 13:10:19 +0200 Pawel Stolowski (26e7866)
+
+	* Merged social-attributes
+
+2016-04-26 12:13:32 +0200 Pawel Stolowski (6ebdec8)
+
+	* Merged trunk
+
+2016-04-19 15:00:13 +0200 Pawel Stolowski (a518ea6)
+
+	* Bump
+
+2016-04-19 14:58:25 +0200 Pawel Stolowski (b1365da)
+
+	* Merged trunk
+
+2016-04-15 15:30:11 +0200 Pawel Stolowski (e8d2ef2)
+
+	* Merged trunk + bump
+
+2016-04-13 18:39:21 +0000 CI Train Bot (17998db)
+
+	* Releasing 7.110+16.04.20160413-0ubuntu1
+
+2016-04-13 18:39:19 +0000 Daniel d'Andrada (06834a3)
+
+	* Unity.Application: Surface-based window management Approved by:
+          Unity8 CI Bot, Gerry Boland
+
+2016-04-13 18:39:13 +0000 Daniel d'Andrada (a653305)
+
+	* MirSurfaceInterface: replace keymapLayout and keymapVariant with
+          keymap
+
+2016-04-13 13:47:27 -0300 Daniel d'Andrada (437af44)
+
+	* Unity.Application: Added and refactored APIs for surface-based
+          window management
+
+2016-04-13 13:40:06 -0300 Daniel d'Andrada (e73a0f4)
+
+	* MirSurfaceInterface: replace keymapLayout and keymapVariant with
+          keymap
+
+2016-04-07 13:22:22 +1000 Michi Henning (5ce05ce)
+
+	* Some more suppressions for copyright test. Added a missing license
+          header.
+
+2016-04-05 06:03:34 +0000 CI Train Bot (88adc47)
+
+	* Releasing 7.109+16.04.20160405-0ubuntu1
+
+2016-04-05 06:03:31 +0000 Marcus Tomlinson (f24f860)
+
+	* Add set*() methods to IniParser Fixes: #1552082 Approved by: Michi
+          Henning, Unity8 CI Bot
+
+2016-03-31 15:59:01 +1000 Michi Henning (d58454c)
+
+	* Re-enabled license/copyright test for xenial.
+
+2016-03-30 10:46:34 +0200 Marcus Tomlinson (ec2af6a)
+
+	* Add "#include <mutex>" for arm64
+
+2016-03-30 07:21:38 +0200 Marcus Tomlinson (4e6a519)
+
+	* Address review comments
+
+2016-03-29 12:23:00 +0200 Marcus Tomlinson (076c859)
+
+	* Append -0ubuntu1 to version in changelog
+
+2016-03-29 12:08:45 +0200 Marcus Tomlinson (efa12c9)
+
+	* Added tests for double-to-int and int-to-double conversions
+
+2016-03-29 08:33:29 +0200 Marcus Tomlinson (356a7ff)
+
+	* Merged trunk
+
+2016-03-29 08:26:34 +0200 Marcus Tomlinson (664f2a9)
+
+	* Clean up docs
+
+2016-03-29 08:00:53 +0200 Marcus Tomlinson (f4ed357)
+
+	* Added tests for remove_group and remove_key
+
+2016-03-29 07:41:48 +0200 Marcus Tomlinson (f7b8745)
+
+	* Added remove_group and remove_key methods
+
+2016-03-29 07:41:32 +0200 Marcus Tomlinson (8c266f2)
+
+	* Added tests for get_double_array and set_double_array
+
+2016-03-29 07:26:17 +0200 Marcus Tomlinson (3e01886)
+
+	* Added missing get_double_array and set_double_array methods
+
+2016-03-24 11:18:00 +0100 Pawel Stolowski (f58008f)
+
+	* Merged trunk + bump
+
+2016-03-22 07:48:55 +0000 CI Train Bot (81ff06a)
+
+	* Releasing 7.108+16.04.20160322-0ubuntu1
+
+2016-03-22 07:48:50 +0000 Michał Sawicz (ddfbaad)
+
+	* Bump changelog Approved by: Unity8 CI Bot, PS Jenkins bot, Lukáš
+          Tinkl
+
+2016-03-22 07:48:44 +0000 Michał Sawicz (40dff5e)
+
+	* Add API for setting keyboard layout+variant on a surface Fixes:
+          #1491340, #1524400 Approved by: Unity8 CI Bot, Michael
+          Terry
+
+2016-03-22 07:48:40 +0000 Nick Dedekind (1c230f9)
+
+	* Added support for low shell chrome Fixes: #1535397 Approved by: PS
+          Jenkins bot, Unity8 CI Bot, Gerry Boland
+
+2016-03-22 07:48:30 +0000 Nick Dedekind (1c5cdbd)
+
+	* Added setStage for sidestage redesign. Approved by: Unity8 CI Bot,
+          PS Jenkins bot, Daniel d'Andrada
+
+2016-03-22 07:48:23 +0000 Pawel Stolowski (8ad5c63)
+
+	* ValueSliderFilter interface. Approved by: Unity8 CI Bot, Albert
+          Astals Cid
+
+2016-03-22 07:48:17 +0000 Pawel Stolowski (07c8b07)
+
+	* Interface for RangeInputFilter. Approved by: Unity8 CI Bot, Albert
+          Astals Cid
+
+2016-03-22 07:48:12 +0000 Pawel Stolowski (d00b8f8)
+
+	* Base interfaces for filters. Approved by: PS Jenkins bot, Unity8 CI
+          Bot, Albert Astals Cid
+
+2016-03-17 08:14:03 +0200 Marcus Tomlinson (6c27e92)
+
+	* Removed file locking
+
+2016-03-16 12:18:07 +0100 Pawel Stolowski (17d3414)
+
+	* Merged filters
+
+2016-03-15 10:51:58 +0200 Marcus Tomlinson (393090d)
+
+	* Removed extra whitespace
+
+2016-03-15 10:45:10 +0200 Marcus Tomlinson (50c90b1)
+
+	* Try to get a file lock before creating a new g_key_file to simplify
+          memory management
+
+2016-03-15 10:39:31 +0200 Marcus Tomlinson (5838c5a)
+
+	* Fix memory leak
+
+2016-03-15 10:26:38 +0200 Marcus Tomlinson (45368eb)
+
+	* Fixed error message for unity-scopes-api tests
+
+2016-03-15 09:41:48 +0200 Marcus Tomlinson (293414d)
+
+	* Add file locking
+
+2016-03-15 09:03:51 +0200 Marcus Tomlinson (4b9bc45)
+
+	* Add thread safety
+
+2016-03-15 08:57:31 +0200 Marcus Tomlinson (2ab2bb3)
+
+	* Added test for sync() exception
+
+2016-03-14 17:28:03 +0100 Pawel Stolowski (a5b33c6)
+
+	* Added filters property
+
+2016-03-14 13:39:43 +0200 Marcus Tomlinson (9070fe4)
+
+	* Added double methods
+
+2016-03-14 10:12:08 +0200 Marcus Tomlinson (d09ee3c)
+
+	* Bump
+
+2016-03-14 10:00:07 +0200 Marcus Tomlinson (4e280cc)
+
+	* Small fix
+
+2016-03-14 09:57:48 +0200 Marcus Tomlinson (4666d4e)
+
+	* Update doc
+
+2016-03-14 09:46:37 +0200 Marcus Tomlinson (3d08a35)
+
+	* Add some special characters to string values
+
+2016-03-14 09:29:06 +0200 Marcus Tomlinson (8989f4d)
+
+	* Added tests
+
+2016-03-14 08:32:23 +0200 Marcus Tomlinson (bd48be1)
+
+	* Add dirty flag
+
+2016-03-14 07:36:59 +0200 Marcus Tomlinson (be47349)
+
+	* Fleshed out set_() methods
+
+2016-03-11 14:06:28 +0100 Michał Sawicz (3d9b2ad)
+
+	* Merge lp:~nick-dedekind/unity-api/shell_chrome
+
+2016-03-11 13:09:02 +0100 Michał Sawicz (198303b)
+
+	* Bump changelog
+
+2016-03-11 13:02:58 +0100 Pawel Stolowski (748f7f8)
+
+	* Merged range-input-filter-iface
+
+2016-03-11 13:00:10 +0100 Pawel Stolowski (5cab70a)
+
+	* Merged filter-iface
+
+2016-03-11 12:59:40 +0100 Pawel Stolowski (144b930)
+
+	* No changelog change:
+
+2016-03-11 10:39:33 +0000 Nick Dedekind (4059102)
+
+	* typo
+
+2016-03-10 12:11:35 +0100 Pawel Stolowski (fb82394)
+
+	* Added ExpandableFilterWidgetInterface
+
+2016-03-10 11:26:40 +0100 Pawel Stolowski (802af88)
+
+	* Merge range-input-filter-iface
+
+2016-03-10 11:26:13 +0100 Pawel Stolowski (ec61bab)
+
+	* Merged filter-iface
+
+2016-03-08 10:28:25 +0200 Marcus Tomlinson (6cd524e)
+
+	* Add new set_() method declarations
+
+2016-03-07 17:01:47 +0100 Pawel Stolowski (e0f1843)
+
+	* Fix role name in the test
+
+2016-03-07 13:03:10 +0100 Pawel Stolowski (0193dec)
+
+	* Bump
+
+2016-03-07 13:01:11 +0100 Pawel Stolowski (cb8de4f)
+
+	* Merged trunk
+
+2016-03-07 09:27:45 +0100 Pawel Stolowski (1e493f2)
+
+	* Bump
+
+2016-03-07 09:27:25 +0100 Pawel Stolowski (bc08f54)
+
+	* Merged trunk
+
+2016-03-03 10:46:51 +0100 Pawel Stolowski (dba5483)
+
+	* Fix comment
+
+2016-03-03 10:45:44 +0100 Pawel Stolowski (1198113)
+
+	* Rename RoleSocialAttributes to RoleSocialActions
+
+2016-03-02 16:31:08 +0100 Pawel Stolowski (f7e6b90)
+
+	* Added RoleSocialAttributes
+
+2016-02-23 12:12:26 +0000 CI Train Bot (8e92c44)
+
+	* Releasing 7.107+16.04.20160223-0ubuntu1
+
+2016-02-23 12:12:24 +0000 Pawel Stolowski (ac76df6)
+
+	* Removed PreviewStackInterface. Changed ScopeInterface to return
+          single preview. Approved by: PS Jenkins bot, Albert Astals
+          Cid
+
+2016-02-23 12:12:15 +0000 Pawel Stolowski (464877c)
+
+	* Interface for activationInProgress flag. Fixes: #1537132 Approved
+          by: PS Jenkins bot, Albert Astals Cid, Unity8 CI Bot
+
+2016-02-22 12:54:03 +0100 Pawel Stolowski (bcfd36f)
+
+	* Merged trunk
+
+2016-02-19 16:24:22 +0100 Pawel Stolowski (67a111f)
+
+	* Merged range-input-filter-iface
+
+2016-02-19 16:23:23 +0100 Pawel Stolowski (d0fff27)
+
+	* Merged filters-iface
+
+2016-02-19 16:22:32 +0100 Pawel Stolowski (86af6b2)
+
+	* Merged trunk
+
+2016-02-18 16:46:46 +0100 Pawel Stolowski (c004d6e)
+
+	* Merged activation-progress
+
+2016-02-17 17:47:23 +0100 Pawel Stolowski (1314b82)
+
+	* Bump version
+
+2016-02-17 17:45:14 +0100 Pawel Stolowski (ae5a615)
+
+	* Merged trunk
+
+2016-02-17 14:43:05 +0000 Nick Dedekind (a9a7070)
+
+	* whitespace
+
+2016-02-17 13:34:12 +0000 Nick Dedekind (b13e5a7)
+
+	* bump version
+
+2016-02-17 12:56:18 +0000 Nick Dedekind (d37775e)
+
+	* fixes
+
+2016-02-16 17:40:48 +0000 Nick Dedekind (02f2c58)
+
+	* merged with trunk
+
+2016-02-16 12:51:55 +0000 Nick Dedekind (c854570)
+
+	* merged with trunk. bump abi
+
+2016-02-16 12:20:49 +0100 Michał Sawicz (3a902d4)
+
+	* Bump application API
+
+2016-02-16 02:34:30 +0100 Michał Sawicz (e413265)
+
+	* Merge trunk
+
+2016-02-12 16:33:20 +0000 Nick Dedekind (d43a229)
+
+	* api bump
+
+2016-02-12 13:27:47 +0000 Nick Dedekind (482d6a7)
+
+	* added ShellCrome
+
+2016-02-11 23:53:29 +0000 CI Train Bot (9859642)
+
+	* Releasing 7.106+16.04.20160211.1-0ubuntu1
+
+2016-02-11 23:53:25 +0000 Michał Sawicz (67f05fc)
+
+	* Bump version for dependants Approved by: Michael Terry, PS Jenkins
+          bot
+
+2016-02-11 23:53:21 +0000 Daniel d'Andrada (7779bcc)
+
+	* MirSurfaceInterface: added size hints Approved by: Unity8 CI Bot,
+          Michał Sawicz
+
+2016-02-11 23:53:16 +0000 Daniel d'Andrada (d235276)
+
+	* Added ApplicationInfoInterface.initialSurfaceSize Fixes: #1532974
+          Approved by: Nick Dedekind, PS Jenkins bot, Gerry Boland
+
+2016-02-12 00:38:57 +0100 Michał Sawicz (c001f0d)
+
+	* Bump application API to 13
+
+2016-02-11 15:06:46 +0100 Pawel Stolowski (f31389b)
+
+	* Removed preview stack qml check
+
+2016-02-11 15:00:36 +0100 Pawel Stolowski (f6aa327)
+
+	* Remove PreviewStackInterface
+
+2016-02-03 12:31:46 +0100 Pawel Stolowski (78b98ac)
+
+	* Don't bump changelog
+
+2016-02-03 09:31:00 -0200 Daniel d'Andrada (49270bd)
+
+	* MirSurfaceInterface: added size hints
+
+2016-02-02 16:00:37 -0200 Daniel d'Andrada (742b8c7)
+
+	* Added ApplicationInfoInterface.initialSurfaceSize
+
+2016-02-02 18:00:16 +0100 Lukáš Tinkl (f5cbb75)
+
+	* fixup docu
+
+2016-02-02 17:59:45 +0100 Lukáš Tinkl (6160150)
+
+	* setKeymap() API
+
+2016-01-29 10:32:05 +0100 Pawel Stolowski (53baa3c)
+
+	* Added activationInProgress property
+
+2016-01-21 10:40:01 -0600 Nick Dedekind (f2ca568)
+
+	* merged with trunk
+
+2016-01-11 10:41:58 +0100 Pawel Stolowski (bcc0bd8)
+
+	* Merged range-input
+
+2016-01-11 10:41:43 +0100 Pawel Stolowski (1880dbc)
+
+	* Merged filters-iface
+
+2016-01-11 10:40:00 +0100 Pawel Stolowski (723fad8)
+
+	* Bump
+
+2016-01-11 10:30:09 +0100 Pawel Stolowski (60204c9)
+
+	* Merged range-input
+
+2016-01-11 10:29:35 +0100 Pawel Stolowski (a172757)
+
+	* Merged filters-iface
+
+2016-01-11 10:27:52 +0100 Pawel Stolowski (9dcf262)
+
+	* Merged trunk
+
+2016-01-04 15:09:55 +0000 CI Train Bot (563ed0e)
+
+	* Releasing 7.105+16.04.20160104-0ubuntu1
+
+2016-01-04 15:09:53 +0000 Pawel Stolowski (5800a1a)
+
+	* New properties to support more complex cards
+
+2015-12-15 16:21:30 +0100 Pawel Stolowski (a96e544)
+
+	* Merged trunk
+
+2015-12-15 12:33:37 +0100 Pawel Stolowski (fcba3d1)
+
+	* Merge range-input-iface
+
+2015-12-15 12:33:11 +0100 Pawel Stolowski (97bad27)
+
+	* Merged filters-iface
+
+2015-12-15 12:32:47 +0100 Pawel Stolowski (6394b7c)
+
+	* Merged trunk
+
+2015-12-14 17:56:28 +0000 Nick Dedekind (b080652)
+
+	* version bump
+
+2015-12-14 17:55:51 +0000 Nick Dedekind (141a3b1)
+
+	* merged with parent
+
+2015-12-08 13:12:06 +0100 Pawel Stolowski (10acdc0)
+
+	* Merged range-input-filter-iface
+
+2015-12-08 13:10:11 +0100 Pawel Stolowski (d1b94dd)
+
+	* Merged main branch
+
+2015-12-08 13:09:27 +0100 Pawel Stolowski (c964168)
+
+	* Merged trunk
+
+2015-12-07 16:21:29 +0000 CI Train Bot (5c81291)
+
+	* Releasing 7.104+16.04.20151207-0ubuntu1
+
+2015-12-07 16:21:27 +0000 Michael Terry (318cadf)
+
+	* Added ApplicationInfoInterface::exemptFromLifecycle Fixes: #1518764
+          Approved by: PS Jenkins bot, Daniel d'Andrada
+
+2015-12-07 16:21:22 +0000 Daniel d'Andrada (832f213)
+
+	* Add MirSurfaceItem.fillMode Approved by: Michael Zanetti
+
+2015-12-04 18:24:28 +0100 Pawel Stolowski (00145cc)
+
+	* Use doubles for value slider
+
+2015-12-03 14:32:37 -0500 Michael Terry (4a0f358)
+
+	* Merge in surfaceItemFillMode2 branch
+
+2015-12-03 14:03:29 -0500 Michael Terry (4ae1e71)
+
+	* Fix documentation
+
+2015-12-03 12:07:15 -0500 Michael Terry (5e94568)
+
+	* Add new flag exemptFromLifecycle
+
+2015-12-03 10:29:19 +0000 Nick Dedekind (e01a312)
+
+	* bump api version
+
+2015-12-03 09:04:13 +0000 Nick Dedekind (143c3f1)
+
+	* version bump
+
+2015-12-02 15:49:52 +0000 Nick Dedekind (d0dbcc1)
+
+	* merged with trunk
+
+2015-12-02 16:04:53 +0100 Pawel Stolowski (a7bbdaa)
+
+	* Renamed SoliderValueRoles enum to Roles
+
+2015-11-30 09:56:02 -0200 Daniel d'Andrada (319c81f)
+
+	* Add MirSurfaceItem.fillMode
+
+2015-11-30 10:18:57 +0100 Pawel Stolowski (1fd3a36)
+
+	* Merged trunk
+
+2015-11-25 14:13:26 +0000 CI Train Bot (c7069de)
+
+	* Releasing 7.103+16.04.20151125-0ubuntu1
+
+2015-11-25 14:13:23 +0000 Michał Sawicz (c3fa30c)
+
+	* Added MirMousePointerInterface::setCustomCursor Approved by: Michał
+          Sawicz
+
+2015-11-25 14:13:19 +0000 Daniel d'Andrada (0ab58b3)
+
+	* Added MirMousePointerInterface::handleWheelEvent Approved by: Lukáš
+          Tinkl, PS Jenkins bot
+
+2015-11-25 11:57:57 +0100 Pawel Stolowski (0c9efbb)
+
+	* Merged filters-iface
+
+2015-11-25 11:56:28 +0100 Pawel Stolowski (d5fd1f7)
+
+	* Merged trunk
+
+2015-11-24 13:16:16 +0100 Pawel Stolowski (76d137f)
+
+	* Ooops again
+
+2015-11-24 12:01:48 +0000 CI Train Bot (c7bd4c1)
+
+	* Releasing 7.102+16.04.20151124-0ubuntu1
+
+2015-11-24 12:01:46 +0000 Pawel Stolowski (73910fe)
+
+	* Depend on devscripts, needed by licensecheck. Disable licensecheck
+          on xenial for now. Approved by: PS Jenkins bot, Michi
+          Henning
+
+2015-11-24 12:55:43 +0100 Pawel Stolowski (eb931cf)
+
+	* Ooops again
+
+2015-11-24 12:42:42 +0100 Pawel Stolowski (72eb3d9)
+
+	* Ooops, forgot pure virtual methods
+
+2015-11-24 12:25:15 +0100 Pawel Stolowski (62b4689)
+
+	* Fix wrong enum value
+
+2015-11-24 11:44:46 +0100 Pawel Stolowski (2b2cc6b)
+
+	* Added ValueSliderInterface
+
+2015-11-24 11:27:28 +0100 Pawel Stolowski (30a6de5)
+
+	* Added licensecheck bug # in the comment
+
+2015-11-23 11:08:55 +0000 Nick Dedekind (33fd2c7)
+
+	* merged with trunk
+
+2015-11-23 11:04:35 +0000 Nick Dedekind (1e5ceb9)
+
+	* setStage
+
+2015-11-23 11:40:44 +0100 Pawel Stolowski (5d2ecc2)
+
+	* Merged filters-iface
+
+2015-11-23 11:40:09 +0100 Pawel Stolowski (0c1dc78)
+
+	* Merged trunk
+
+2015-11-23 11:17:23 +0100 Pawel Stolowski (e8ca5e4)
+
+	* Method for resetting filters to defaults
+
+2015-11-23 11:13:22 +0100 Michał Sawicz (67829ff)
+
+	* Merge lp:~dandrader/unity-api/mouseWheel
+
+2015-11-20 13:35:35 +0100 Pawel Stolowski (09a7ae4)
+
+	* Merged trunk
+
+2015-11-19 12:28:03 -0200 Daniel d'Andrada (8c92671)
+
+	* Added MirMousePointerInterface::handleWheelEvent
+
+2015-11-18 13:30:41 +0100 Pawel Stolowski (d805315)
+
+	* Also require lsb-release
+
+2015-11-17 15:59:25 +0100 Pawel Stolowski (54f0c07)
+
+	* Merged filters-iface branch
+
+2015-11-17 15:59:13 +0100 Pawel Stolowski (2291079)
+
+	* Don't pass labels with label changed signals
+
+2015-11-17 15:58:42 +0100 Pawel Stolowski (7f3f8e3)
+
+	* Added title to filter base
+
+2015-11-16 11:35:13 +0100 Pawel Stolowski (8d2bda6)
+
+	* hasStartValue/hasEndValue as properties. Pass QString as const ref.
+
+2015-11-16 11:16:01 +0100 Pawel Stolowski (22f8fe4)
+
+	* Merged filters-iface
+
+2015-11-16 11:15:44 +0100 Pawel Stolowski (e5abed3)
+
+	* Merged license-check
+
+2015-11-16 10:45:59 +0100 Pawel Stolowski (ed5dc43)
+
+	* Depend on devscripts, disable licensecheck on xenial for now
+
+2015-11-13 12:59:19 +0100 Pawel Stolowski (9e5662f)
+
+	* has* and erase* value methods
+
+2015-11-13 11:29:57 +0100 Pawel Stolowski (35a9b8c)
+
+	* Getters should be const
+
+2015-11-13 11:07:53 +0100 Pawel Stolowski (ba4607b)
+
+	* Properties for labels
+
+2015-11-13 10:48:39 +0100 Pawel Stolowski (c73fb07)
+
+	* Use double instead of variant
+
+2015-11-11 16:56:54 -0200 Daniel d'Andrada (8ad064c)
+
+	* * Added MirMousePointerInterface::setCustomCursor
+
+2015-11-10 11:39:09 +0100 Pawel Stolowski (9e343ba)
+
+	* Merged filters interface branch
+
+2015-11-09 14:40:51 +0000 CI Train Bot (9292f71)
+
+	* Releasing 7.102+16.04.20151109-0ubuntu1
+
+2015-11-09 14:40:49 +0000 Albert Astals Cid (0f2a80d)
+
+	* New method for in-card actions. Remove obsolete special categories.
+          Approved by: PS Jenkins bot, Albert Astals Cid
+
+2015-11-06 11:38:40 +0100 Pawel Stolowski (094ce1a)
+
+	* Merged trunk
+
+2015-11-02 11:23:43 +0000 CI Train Bot (67679d4)
+
+	* Releasing 7.102+16.04.20151102-0ubuntu1
+
+2015-11-02 11:23:41 +0000 Nick Dedekind (f02a78b)
+
+	* Support server->client visibility change to stop rendering
+          (lp:#1475678) Fixes: #1475678 Approved by: PS Jenkins bot
+
+2015-11-02 11:23:34 +0000 Michael Terry (acb7fbb)
+
+	* Add new isTouchApp property to ApplicationInfoInterface.
+
+2015-11-02 11:10:43 +0100 Pawel Stolowski (212cc98)
+
+	* Merged trunk
+
+2015-11-02 11:10:14 +0100 Pawel Stolowski (ee888e5)
+
+	* Bump
+
+2015-10-30 12:56:14 -0400 Michael Terry (77b724d)
+
+	* Bump VERSION for unity-shell-application
+
+2015-10-27 16:31:24 +0000 Nick Dedekind (bc99441)
+
+	* merged no-touch-no-lifecycle
+
+2015-10-27 11:46:55 -0400 Michael Terry (a8b8b75)
+
+	* Merge from trunk
+
+2015-10-27 12:02:42 +0100 Pawel Stolowski (462cf26)
+
+	* Merged filters-iface
+
+2015-10-27 10:16:41 +0100 Pawel Stolowski (665b545)
+
+	* Merge trunk
+
+2015-10-26 18:26:01 +0000 Nick Dedekind (7651a6e)
+
+	* merge with trunk
+
+2015-10-26 14:50:34 +0100 Pawel Stolowski (1da9df6)
+
+	* Merged trunk
+
+2015-10-21 11:48:38 +0000 CI Train Bot (30deb62)
+
+	* Releasing 7.101+15.10.20151021-0ubuntu1
+
+2015-10-21 11:48:35 +0000 Lukáš Tinkl (b820130)
+
+	* Notify about surface name changes Approved by: PS Jenkins bot,
+          Daniel d'Andrada
+
+2015-10-21 11:48:31 +0000 Daniel d'Andrada (b5bf82d)
+
+	* unity/shell/application: add some mouse cursor headers and
+          properties
+
+2015-10-16 09:14:30 +0200 Pawel Stolowski (a1dfc15)
+
+	* Merged trunk
+
+2015-10-13 17:17:39 -0300 Daniel d'Andrada (24e2e54)
+
+	* s/Qt::MouseButton/Qt::MouseButtons
+
+2015-10-12 09:22:30 +0100 Nick Dedekind (3bb4bb5)
+
+	* reverted enum
+
+2015-10-09 16:25:10 +0200 Pawel Stolowski (23a7bc7)
+
+	* Fully-qualified filterType property
+
+2015-10-09 10:30:31 +0200 Pawel Stolowski (ae728ee)
+
+	* Removed addSpecialCategory
+
+2015-10-06 18:07:24 +0200 Pawel Stolowski (b88899d)
+
+	* Bump version
+
+2015-10-05 14:54:22 +0200 Pawel Stolowski (3ea5f72)
+
+	* Merged trunk
+
+2015-10-01 13:12:53 -0400 Michael Terry (7db6fcc)
+
+	* Add isTouchApp to application manager roles
+
+2015-10-01 12:24:37 -0400 Michael Terry (49210d7)
+
+	* Remove canSuspend
+
+2015-10-01 16:11:20 +0200 Michał Sawicz (bb7ae23)
+
+	* Add changelog bit
+
+2015-09-29 13:42:26 -0400 Michael Terry (7430fb1)
+
+	* Add canSuspend and isTouchApp to ApplicationInfoInterface
+
+2015-09-29 16:27:02 +0200 Lukáš Tinkl (4c428ac)
+
+	* rebase on top of lp:~dandrader/unity-api/mousePointer
+
+2015-09-29 13:34:31 +0200 Lukáš Tinkl (8403aaf)
+
+	* notify surface name changes, bump api version
+
+2015-09-29 11:34:49 +0200 Pawel Stolowski (9a46d01)
+
+	* Removed unused alt nav properties/methods
+
+2015-09-28 12:07:24 +0200 Pawel Stolowski (2c62c2c)
+
+	* Merged all-label-role
+
+2015-09-28 11:35:17 +0200 Pawel Stolowski (fd476c1)
+
+	* Oops
+
+2015-09-28 11:17:31 +0200 Pawel Stolowski (6c9315f)
+
+	* Added allLabel role to NavigationInterface
+
+2015-09-23 15:05:10 +0100 Nick Dedekind (65176e9)
+
+	* removed enum
+
+2015-09-23 14:04:52 +0100 Nick Dedekind (4861561)
+
+	* Added visibility to surface interface
+
+2015-09-18 13:00:09 -0300 Daniel d'Andrada (b1290de)
+
+	* unity/shell/application: Added mouse pointer related interfaces and
+          properties
+
+2015-09-18 09:44:39 +0200 Michał Sawicz (125370e)
+
+	* Resync trunk
+
+2015-09-16 12:05:47 +0200 Albert Astals Cid (29f37f6)
+
+	* move the new enum value at the end
+
+2015-09-16 10:52:18 +0200 Pawel Stolowski (88a3f3b)
+
+	* Merged trunk
+
+2015-09-15 11:15:11 +0200 Pawel Stolowski (d8f1d43)
+
+	* Merged 15.04 trunk
+
+2015-09-03 08:54:03 +0000 CI Train Bot (d90d310)
+
+	* Releasing 7.100+15.10.20150903-0ubuntu1
+
+2015-09-03 08:54:01 +0000 Michał Sawicz (57be0dd)
+
+	* No-change rebuild to resync vivid and wily Approved by: Michael
+          Zanetti
+
+2015-09-03 10:44:35 +0200 Michał Sawicz (de1b8e7)
+
+	* Add changelog entry
+
+2015-09-02 17:00:56 +0200 Pawel Stolowski (472b987)
+
+	* Merged 15.04 trunk
+
+2015-09-01 12:50:14 +0200 Pawel Stolowski (38570b9)
+
+	* primaryNavigationTag
+
+2015-08-31 11:38:53 +0200 Pawel Stolowski (74f4d4c)
+
+	* primaryNavigationFilterChanged signal
+
+2015-08-28 17:10:11 +0200 Pawel Stolowski (63541bf)
+
+	* New properties for filters
+
+2015-08-28 11:29:46 +0200 Pawel Stolowski (b85aa00)
+
+	* Merged trunk
+
+2015-08-27 08:50:45 +0000 CI Train Bot (99e3d3f)
+
+	* Releasing 7.100+15.04.20150827-0ubuntu1
+
+2015-08-27 08:50:41 +0000 Daniel d'Andrada (3825d6f)
+
+	* Added MirSurface and MirSurfaceItem interfaces Approved by: Gerry
+          Boland
+
+2015-08-26 08:59:22 +0000 CI Train Bot (1fca6ad)
+
+	* Releasing 7.99+15.10.20150826-0ubuntu1
+
+2015-08-26 08:59:20 +0000 Pawel Stolowski (e4b9d0a)
+
+	* Change activate/preview methods to take categoryId. Fixes: #1428063
+          Approved by: PS Jenkins bot
+
+2015-08-19 10:18:09 -0300 Daniel d'Andrada (c6cdc9a)
+
+	* Added MirSurface and MirSurfaceItem interfaces
+
+2015-08-14 13:56:38 +0200 Pawel Stolowski (712ef4b)
+
+	* Updated changelog
+
+2015-08-14 13:52:07 +0200 Pawel Stolowski (9587f24)
+
+	* Change activate/preview methods to take categoryId.
+
+2015-08-12 10:00:36 +0200 Pawel Stolowski (aebc10c)
+
+	* Merged 15.04 trunk. bumped version
+
+2015-08-11 14:05:55 +0000 CI Train Bot (bd68ddb)
+
+	* Releasing 7.99+15.04.20150811-0ubuntu1
+
+2015-08-11 14:05:51 +0000 Pawel Stolowski (e69cf0b)
+
+	* Change activate/preview methods to take categoryId. Fixes: #1428063
+          Approved by: Xavi Garcia
+
+2015-08-11 16:05:12 +0200 Pawel Stolowski (8430c02)
+
+	* Merged trunk-15.04
+
+2015-08-11 14:53:01 +0200 Pawel Stolowski (770af7d)
+
+	* Merged 15.04 trunk
+
+2015-08-11 14:52:34 +0200 Pawel Stolowski (a3d2f5c)
+
+	* Updated changelog
+
+2015-08-11 14:52:11 +0200 Pawel Stolowski (3359eb2)
+
+	* Merged trunk
+
+2015-08-10 17:08:22 +0200 Pawel Stolowski (4e83fb0)
+
+	* Merged trunk-15.04
+
+2015-08-10 11:48:49 +0200 Pawel Stolowski (68dcb1b)
+
+	* Merged 15.04 trunk
+
+2015-08-10 11:38:25 +0200 Pawel Stolowski (a0be53f)
+
+	* Updated changelog
+
+2015-08-07 11:22:58 +0200 Albert Astals Cid (fa499c5)
+
+	* version on top
+
+2015-08-07 11:17:19 +0200 Albert Astals Cid (017ab92)
+
+	* Merge lp:unity-api
+
+2015-08-06 15:06:51 +0200 Pawel Stolowski (5353c2d)
+
+	* Fix version
+
+2015-08-04 15:26:17 +0000 CI Train Bot (ec0f563)
+
+	* Releasing 7.99+15.10.20150804-0ubuntu1
+
+2015-08-04 15:26:12 +0000 Daniel d'Andrada (517bd44)
+
+	* Add a NO_TESTS options to cmake
+
+2015-08-04 15:26:07 +0000 Daniel d'Andrada (b8f8467)
+
+	* Let users of the API suspend & resume individual apps at will
+
+2015-08-03 11:06:27 -0300 Daniel d'Andrada (a1cbbd3)
+
+	* Merge trunk
+
+2015-08-03 15:13:18 +0200 Pawel Stolowski (eb5fb53)
+
+	* Bump
+
+2015-08-03 15:11:04 +0200 Pawel Stolowski (290cecb)
+
+	* Merged trunk
+
+2015-08-03 12:22:16 +0200 Pawel Stolowski (6e4adc3)
+
+	* Merged trunk
+
+2015-07-24 09:53:02 +0000 CI Train Bot (fd9fccf)
+
+	* Releasing 7.98+15.10.20150724-0ubuntu1
+
+2015-07-24 09:52:59 +0000 Mirco Müller (55b8f64)
+
+	* Added alert-API to LauncherItemInterface and LauncherModelInterface
+          to allow applications to trigger a
+          wiggle/peeking-animation on their launcher-icon to draw
+          users attention. Approved by: PS Jenkins bot, Michael
+          Zanetti
+
+2015-07-21 05:13:26 +0000 CI Train Bot (dca78db)
+
+	* Releasing 7.97+15.10.20150721-0ubuntu1
+
+2015-07-21 05:13:24 +0000 Michi Henning (a1ae451)
+
+	* Remove dependency on gcc 4.9. Fixes: #1452342 Approved by: Marcus
+          Tomlinson, PS Jenkins bot, Matthias Klose
+
+2015-07-20 20:57:02 +1000 Michi Henning (bc24844)
+
+	* Remove dependency on gcc 4.9 from top-level CMakeLists.txt.
+
+2015-07-20 20:49:36 +1000 Michi Henning (561bd02)
+
+	* Removed g++ 4.9 dependency from debian/rules.
+
+2015-07-20 19:35:04 +1000 Michi Henning (2257b30)
+
+	* Remove explicit dependency on gcc 4.9.
+
+2015-07-14 12:19:33 +0200 Pawel Stolowski (2e4bc90)
+
+	* Take categoryId with activateAction
+
+2015-07-08 14:05:38 +0200 Pawel Stolowski (67b3592)
+
+	* Version bump
+
+2015-07-07 14:17:26 +0200 Pawel Stolowski (46e53dd)
+
+	* Version bumpl
+
+2015-07-03 11:01:51 -0300 Daniel d'Andrada (299529c)
+
+	* Add a NO_TESTS options to cmake
+
+2015-07-02 16:09:32 +0200 Pawel Stolowski (bcb30c2)
+
+	* Changed activate/preview methods to take category id
+
+2015-06-23 15:49:04 +0200 Mirco Müller (240610b)
+
+	* Bumped ChangeLog
+
+2015-06-19 18:13:00 +0200 Mirco Müller (f78b316)
+
+	* Small name-tweak and launcher-api version bump.
+
+2015-06-19 17:50:55 +0200 Albert Astals Cid (cbc0b46)
+
+	* Merge lp:unity-api
+
+2015-06-19 09:02:05 -0300 Daniel d'Andrada (3eb304a)
+
+	* Changes to application lifecycle APIs
+
+2015-06-18 19:03:45 +0200 Mirco Müller (1c2791e)
+
+	* Forgot to add ::alert() and its api-doc.
+
+2015-06-18 18:14:05 +0200 Mirco Müller (e47906c)
+
+	* Merged with trunk.
+
+2015-06-12 13:06:29 +0200 Mirco Müller (dc2f123)
+
+	* Clean up
+
+2015-06-11 09:11:57 +0000 CI Train Bot (80eb04a)
+
+	* Releasing 7.97+15.10.20150611-0ubuntu1
+
+2015-06-11 09:11:55 +0000 Daniel d'Andrada (f102ba6)
+
+	* Add supportedOrientations and rotatesWindowContents to
+          ApplicationInfo Approved by: PS Jenkins bot, Gerry Boland
+
+2015-06-05 11:51:59 +0200 Mirco Müller (1dbfe4d)
+
+	* Updated tests to include alerting-related API-changes.
+
+2015-06-02 16:38:55 +0200 Pawel Stolowski (52b684d)
+
+	* Added activateAction virtual method
+
+2015-06-02 15:52:49 +0200 Mirco Müller (7b9bafb)
+
+	* Added alerting-api to allow apps to trigger an attention-grabbing
+          animation of their launcher-icon.
+
+2015-05-29 18:21:16 +0200 Michael Zanetti (4a88b35)
+
+	* merge trunk
+
+2015-05-29 18:18:12 +0200 Michael Zanetti (8f6ba15)
+
+	* bump versions
+
+2015-05-18 17:07:49 +0200 Albert Astals Cid (9b30750)
+
+	* This is not a uri now but a "data"
+
+2015-05-18 17:06:05 +0200 Albert Astals Cid (59b6892)
+
+	* Typo
+
+2015-05-13 11:55:07 +0200 Albert Astals Cid (1dc6b4f)
+
+	* type will come as part of template/components
+
+2015-05-08 15:51:15 +0200 Albert Astals Cid (8a7f102)
+
+	* New property to support more complex cards
+
+2015-04-16 13:46:41 -0300 Daniel d'Andrada (c508572)
+
+	* Update debian/changelog date & time
+
+2015-04-16 13:14:06 -0300 Daniel d'Andrada (0ee12d6)
+
+	* Merge trunk
+
+2015-04-16 13:13:09 -0300 Daniel d'Andrada (27a8d0e)
+
+	* Update copyright year
+
+2015-04-16 13:12:29 -0300 Daniel d'Andrada (d23820a)
+
+	* Add :native back again
+
+2015-04-16 16:06:43 +0200 Pawel Stolowski (70bc4cf)
+
+	* Fixes.
+
+2015-04-16 15:54:34 +0200 Pawel Stolowski (26dde34)
+
+	* Added RangeInputFilterInterface.
+
+2015-04-10 16:07:40 +0000 CI Train Bot (b7fc722)
+
+	* Releasing 7.96+15.04.20150410.2-0ubuntu1
+
+2015-04-10 16:07:37 +0000 Michi Henning (c32ec40)
+
+	* Reverted commit 93 because it cost me a cool 1.5 hours today. Turns
+          out that libmcheck is not thread-safe and causes the most
+          amazing crashes in unpredictable ways :-( Approved by:
+          Pawel Stolowski, PS Jenkins bot
+
+2015-04-02 16:53:27 +0200 Pawel Stolowski (84f3966)
+
+	* Fix test failure.
+
+2015-04-02 16:42:29 +0200 Pawel Stolowski (3247f3e)
+
+	* More test cases.
+
+2015-04-02 12:54:22 +0200 Pawel Stolowski (83f0bc2)
+
+	* Change function order in the test.
+
+2015-04-01 17:22:44 +0200 Pawel Stolowski (73256ee)
+
+	* Verify filters model. Minor fixes.
+
+2015-04-01 09:59:40 +0200 Pawel Stolowski (4dcfdf7)
+
+	* Fixed filter type property.
+
+2015-03-31 18:40:59 +0200 Pawel Stolowski (abd5dd1)
+
+	* Make properties that don't change CONSTANT>
+
+2015-03-26 11:27:13 +0100 Pawel Stolowski (e7925b8)
+
+	* Renamed id property to filterId. Added optionsChanged signal.
+
+2015-03-25 14:04:37 +0100 Pawel Stolowski (0007ed5)
+
+	* Bumped version in the changelog.
+
+2015-03-25 14:04:26 +0100 Pawel Stolowski (186cac2)
+
+	* Use raw pointers in the mock model.
+
+2015-03-25 13:17:04 +0100 Pawel Stolowski (15a2fb5)
+
+	* Bump version.
+
+2015-03-25 13:04:53 +0100 Pawel Stolowski (cc7ea53)
+
+	* Added mocks. Don't expose update method which leaks scopes API
+          types.
+
+2015-03-24 15:42:54 +0100 Pawel Stolowski (e7fa494)
+
+	* Don't expose selector filter option as object, expose it via
+          options model rows.
+
+2015-03-13 17:22:56 +0100 Pawel Stolowski (9dabd0d)
+
+	* Declare filter base iface metatype
+
+2015-03-13 16:50:54 +0100 Pawel Stolowski (acc688f)
+
+	* Fix
+
+2015-03-13 16:45:03 +0100 Pawel Stolowski (f06d80c)
+
+	* Fix
+
+2015-03-13 16:26:54 +0100 Pawel Stolowski (ce1ba76)
+
+	* Fix
+
+2015-03-13 16:17:03 +0100 Pawel Stolowski (bbeba63)
+
+	* Filter type as enum.
+
+2015-03-13 13:45:35 +0100 Pawel Stolowski (7ae9284)
+
+	* Added filter type enum.
+
+2015-03-13 13:41:00 +0100 Pawel Stolowski (424477f)
+
+	* Added base filter interfaces.
+
+2015-03-10 19:48:43 +1000 Michi Henning (207ddf7)
+
+	* Reverted commit 93 because it cost me a cool 1.5 hours today. Turns
+          out that libmcheck is not threads-safe and causes the most
+          amazing crashes in unpredictable ways :-(
+
+2015-02-18 12:08:51 -0200 Daniel d'Andrada (b905ab4)
+
+	* Merge trunk
+
+2015-02-13 15:15:59 +0000 CI Train Bot (14bd6b7)
+
+	* Releasing 7.96+15.04.20150213-0ubuntu1
+
+2015-02-13 15:15:54 +0000 Pawel Stolowski (29b986c)
+
+	* Added Scopes::closeScope abstract method. Fixes: #1410337 Approved
+          by: Albert Astals Cid
+
+2015-02-12 15:27:04 -0200 Daniel d'Andrada (cf7d0c1)
+
+	* Drop the ":native" part as PPA's can't handle it
+
+2015-02-12 15:25:26 -0200 Daniel d'Andrada (3e6334b)
+
+	* Merge trunk
+
+2015-02-12 18:18:21 +0100 Pawel Stolowski (102112e)
+
+	* Merged trunk
+
+2015-02-12 15:51:13 +0100 Pawel Stolowski (0cda171)
+
+	* Ups, added closeScope method to the mock.
+
+2015-02-11 16:28:29 +0000 CI Train Bot (d5f2a27)
+
+	* Releasing 7.95+15.04.20150211-0ubuntu1
+
+2015-02-11 16:28:20 +0000 Michał Sawicz (d589dbc)
+
+	* Add :native to g++ dependency for cross-building and wrap-and-sort
+          for good measure. Python needs :any, too. Fixes: #1353855
+          Approved by: Michi Henning
+
+2015-02-11 16:28:12 +0000 Michael Zanetti (de80221)
+
+	* add an onlyPinned property to the launcher's api Approved by:
+          Michael Terry, Michał Sawicz, PS Jenkins bot
+
+2015-02-11 14:41:19 +0100 Michael Zanetti (944c07e)
+
+	* bump launcher api version
+
+2015-02-10 09:44:06 +0100 Michał Sawicz (77ca4dd)
+
+	* Python → any
+
+2015-02-10 09:31:16 +0100 Michał Sawicz (a5518d0)
+
+	* Add :native to g++ dependency for cross-building and wrap-and-sort
+          for good measure.
+
+2015-02-09 18:17:08 +0100 Michael Zanetti (285d172)
+
+	* add onlyPinned property to launcher model
+
+2015-02-04 18:28:06 +0100 Pawel Stolowski (f6c997b)
+
+	* Bumped version.
+
+2015-02-04 18:24:55 +0100 Pawel Stolowski (3b06e90)
+
+	* Added closeScope to the Scopes iface.
+
+2014-12-08 11:20:48 -0200 Daniel d'Andrada (f94de38)
+
+	* Merge trunk
+
+2014-12-05 10:51:44 +0000 CI Train Bot (ce029a5)
+
+	* Releasing 7.94+15.04.20141205-0ubuntu1
+
+2014-12-05 10:51:34 +0000 Albert Astals (b4fffc4)
+
+	* API for setFavorite/moveFavoriteTo Fixes: #1368670 Approved by:
+          Pawel Stolowski, Nick Dedekind, PS Jenkins bot
+
+2014-11-05 10:55:55 -0200 Daniel d'Andrada (41ce54a)
+
+	* add supportedOrientations and rotatesWindowContents to
+          ApplicationInfo
+
+2014-11-05 09:33:07 +0100 Albert Astals (e7c3b12)
+
+	* Merge
+
+2014-11-04 14:42:57 +0000 CI bot (2ab2cf4)
+
+	* Releasing 7.93+15.04.20141104-0ubuntu1
+
+2014-11-04 14:42:43 +0000 Michael Zanetti (6952202)
+
+	* Add a signal to the launcher model to hint changes Approved by:
+          Daniel d'Andrada, PS Jenkins bot
+
+2014-10-22 12:30:55 -0400 Albert Astals (b55c383)
+
+	* For the third time i said no const!
+
+2014-10-22 11:49:26 -0400 Albert Astals (1576cdc)
+
+	* I said no const
+
+2014-10-22 11:23:38 -0400 Albert Astals (78735f2)
+
+	* not const!
+
+2014-10-22 08:18:29 -0400 Albert Astals (bfb1e20)
+
+	* changelog
+
+2014-10-22 08:16:52 -0400 Albert Astals (be5295f)
+
+	* Merge
+
+2014-10-21 20:03:55 +0200 Michael Zanetti (c68b6ec)
+
+	* rename signal
+
+2014-10-20 16:45:26 -0400 Albert Astals (1e251d3)
+
+	* Increase version
+
+2014-10-20 14:42:26 -0400 Albert Astals (f0e37e5)
+
+	* API for setFavorite/moveFavoriteTo
+
+2014-10-09 12:01:41 +0200 Michael Zanetti (4740f42)
+
+	* merge
+
+2014-10-06 16:23:11 +0200 Michael Zanetti (5593b63)
+
+	* merge prereq
+
+2014-10-06 16:08:17 +0200 Michael Zanetti (aa634f4)
+
+	* bump version properly
+
+2014-10-06 16:06:42 +0200 Michael Zanetti (9d36359)
+
+	* add a signal to the launcher to hint changes
+
+2014-10-03 16:52:41 +0000 CI bot (f09b44b)
+
+	* Releasing 7.92+14.10.20141003.1-0ubuntu1
+
+2014-10-03 16:52:31 +0000 Michael Zanetti (4576632)
+
+	* add a dashActive property to the application API Fixes: 1339883
+          Approved by: Gerry Boland, PS Jenkins bot, Albert Astals
+          Cid
+
+2014-09-29 15:39:01 +0200 Michael Zanetti (8d26fe3)
+
+	* improve comment
+
+2014-09-29 12:58:06 +0200 Michael Zanetti (4beb536)
+
+	* update mock and test
+
+2014-09-29 11:48:07 +0200 Michael Zanetti (593855d)
+
+	* dashActive -> forceDashActive
+
+2014-09-29 11:13:40 +0200 Michael Zanetti (30f61ff)
+
+	* merge trunk
+
+2014-09-22 17:35:28 +0000 CI bot (6cede52)
+
+	* Releasing 7.91+14.10.20140922.1-0ubuntu1
+
+2014-09-22 17:35:13 +0000 Gerry Boland (99020c5)
+
+	* ApplicationInfoInterface: add splash screen data Fixes: 1254775
+          Approved by: Gerry Boland, PS Jenkins bot
+
+2014-09-22 07:26:38 -0300 Daniel d'Andrada (434ef13)
+
+	* Merge trunk
+
+2014-09-22 07:24:21 -0300 Daniel d'Andrada (b189558)
+
+	* Updated changelog
+
+2014-09-19 13:52:50 +0200 Michael Zanetti (d32e463)
+
+	* merge trunk
+
+2014-09-19 13:20:02 +0200 Michael Zanetti (2aeeeb7)
+
+	* add dashActive property to application API
+
+2014-09-18 16:42:26 +0000 CI bot (e7196c7)
+
+	* Releasing 7.90+14.10.20140918-0ubuntu1
+
+2014-09-18 16:42:15 +0000 Michael Zanetti (df4e4f8)
+
+	* Add countVisible property to Launcher API Approved by: Michał
+          Sawicz, PS Jenkins bot, Albert Astals Cid
+
+2014-09-12 13:59:50 -0300 Daniel d'Andrada (3e3bcf9)
+
+	* now it will work
+
+2014-09-12 12:39:14 -0300 Daniel d'Andrada (ea97974)
+
+	* Forgot to copy TestUtil's qmldir as well
+
+2014-09-09 12:51:47 -0300 Gerry Boland (7c25ff8)
+
+	* Improve documentation
+
+2014-09-09 12:20:52 -0300 Daniel d'Andrada (8523829)
+
+	* Correctly test for url and color types
+
+2014-09-09 12:20:36 -0300 Daniel d'Andrada (f01a6c7)
+
+	* Test for the existence of the new splash properties
+
+2014-09-09 12:19:15 -0300 Daniel d'Andrada (2f2b00f)
+
+	* Ensure TestUtil qml and js files are copied again whenever they're
+          changed
+
+2014-09-03 19:59:26 -0300 Daniel d'Andrada (8df29c6)
+
+	* ApplicationInfoInterface: add splash screen data
+
+2014-09-03 15:29:41 +0200 Michael Zanetti (9b719a4)
+
+	* fix property definition
+
+2014-09-03 12:23:52 +0200 Michael Zanetti (4fc7258)
+
+	* fix changelog entry
+
+2014-09-03 11:32:41 +0200 Michael Zanetti (40ce8dd)
+
+	* proper changelog text
+
+2014-09-02 20:15:11 +0200 Michael Zanetti (62f84cc)
+
+	* bump changelog
+
+2014-08-26 15:02:32 +0200 Michael Zanetti (fae81c9)
+
+	* update tests
+
+2014-08-26 14:22:17 +0200 Michael Zanetti (b08cd37)
+
+	* merge trunk
+
+2014-08-26 13:22:58 +0200 Michael Zanetti (50fbfcc)
+
+	* bump launcher api version
+
+2014-08-26 13:21:44 +0200 Michael Zanetti (6e1bded)
+
+	* add new requirements for LauncherItems
+
+2014-08-25 07:04:32 +0000 CI bot (3d85eb2)
+
+	* Releasing 7.89+14.10.20140825-0ubuntu1
+
+2014-08-25 07:04:16 +0000 CI bot (8343a90)
+
+	* Remove all mentions to screenshotting from the API
+
+2014-08-21 11:33:51 -0300 Daniel d'Andrada (759bffa)
+
+	* Updated debian/changelog
+
+2014-08-21 11:31:12 -0300 Daniel d'Andrada (a439105)
+
+	* Don't touch this stuff, whatever it's used for
+
+2014-08-18 09:41:43 -0300 Daniel d'Andrada (8a26623)
+
+	* Update tests
+
+2014-08-13 15:05:37 -0300 Daniel d'Andrada (4d31d65)
+
+	* No mentions of screenshot anywhere
+
+2014-08-11 10:39:14 -0300 Daniel d'Andrada (3bc26fe)
+
+	* Update unity-shell-application pkg-config version
+
+2014-08-08 06:06:57 -0300 Daniel d'Andrada (08e0678)
+
+	* ApplicationInfo - add updateScreenshot() and discardScreenshot()
+
+2014-08-06 19:32:56 +0000 CI bot (ea7fb59)
+
+	* Releasing 7.88+14.10.20140806-0ubuntu1
+
+2014-08-06 19:32:46 +0000 Pete Woods (fd364df)
+
+	* Scopes interface v4. Approved by: Michał Sawicz, PS Jenkins bot,
+          Albert Astals Cid
+
+2014-08-04 16:59:13 +0100 Michal Hruby (cfedbf9)
+
+	* Added Scope::refresh() method
+
+2014-08-04 15:04:25 +0100 Michal Hruby (4187513)
+
+	* Added setNavigationState
+
+2014-08-04 14:58:53 +0100 Michal Hruby (a129265)
+
+	* Revert addition of the query properties
+
+2014-08-01 14:09:00 +0100 Michal Hruby (160ccc9)
+
+	* Added count property on the Scopes model
+
+2014-08-01 12:39:38 +0100 Michal Hruby (036631e)
+
+	* Drop the visible role and property
+
+2014-08-01 08:40:30 +0100 Michal Hruby (4932987)
+
+	* Bump version
+
+2014-07-31 16:13:28 +0100 Michal Hruby (af8f7c9)
+
+	* Added hidden property to NavigationInterface
+
+2014-07-31 14:39:24 +0100 Michal Hruby (60bffb5)
+
+	* Change the favoriting to a single property
+
+2014-07-31 12:29:37 +0100 Michal Hruby (7460de9)
+
+	* Fix docs
+
+2014-07-31 11:14:00 +0000 CI bot (4a41ffb)
+
+	* Releasing 7.87+14.10.20140731-0ubuntu1
+
+2014-07-31 11:13:51 +0000 Michal Hruby (1e01165)
+
+	* Added interface for scopes overview. Approved by: Albert Astals Cid
+
+2014-07-30 17:36:36 +0100 Michal Hruby (8cc5b97)
+
+	* Added parentQuery property
+
+2014-07-30 14:09:58 +0100 Michal Hruby (cff5f23)
+
+	* s/isFavorited/favorite/
+
+2014-07-30 13:04:30 +0100 Michal Hruby (a58fe6b)
+
+	* Fix tests
+
+2014-07-30 12:55:28 +0100 Michal Hruby (30188be)
+
+	* Added interface for favouriting a scope
+
+2014-07-29 16:04:30 +0100 Pete Woods (93c8187)
+
+	* Just the one status code, simplified list of statuses
+
+2014-07-29 08:14:42 +0100 Michal Hruby (bd41251)
+
+	* Merge status addition
+
+2014-07-28 23:20:43 +0100 Michal Hruby (2a6f71d)
+
+	* Added one more property
+
+2014-07-28 13:05:10 +0100 Pete Woods (f588cd8)
+
+	* Add status and details properties to ScopeInterface
+
+2014-07-25 17:37:38 +0100 Michal Hruby (10cfcec)
+
+	* Fix tests
+
+2014-07-25 16:17:40 +0100 Michal Hruby (9e3f750)
+
+	* Make things compile
+
+2014-07-25 15:08:42 +0100 Michal Hruby (27a1835)
+
+	* Define scopes interface v4
+
+2014-07-24 11:07:43 +0100 Michal Hruby (12c2bec)
+
+	* Bump changelog
+
+2014-07-24 11:06:20 +0100 Michal Hruby (390c9a1)
+
+	* Merge trunk
+
+2014-07-18 16:20:16 +0000 CI bot (c47c96b)
+
+	* Releasing 7.86+14.10.20140718.1-0ubuntu1
+
+2014-07-18 16:20:04 +0000 Michal Hruby (98ae611)
+
+	* Require g++4.9 for build to avoid ABI breakage since 4.8. Approved
+          by: PS Jenkins bot, Michi Henning
+
+2014-07-18 16:46:22 +0100 Michal Hruby (c166f85)
+
+	* Allow different gcc micro versions
+
+2014-07-18 13:56:46 +0100 Michal Hruby (9743938)
+
+	* It's better when the tests pass
+
+2014-07-18 13:15:12 +0100 Michal Hruby (3f82184)
+
+	* Bump version
+
+2014-07-18 13:15:05 +0100 Michal Hruby (1dc5a79)
+
+	* Added overlayColor role
+
+2014-07-18 13:14:43 +0100 Michal Hruby (18a0dd8)
+
+	* Added overviewScope property
+
+2014-07-18 10:36:22 +0100 Michal Hruby (cd23f38)
+
+	* Fix changelog
+
+2014-07-11 17:23:51 -0700 Robert Bruce Park (8a327a2)
+
+	* Resolve merge conflicts.
+
+2014-07-08 15:06:25 +0000 CI bot (8aeeedd)
+
+	* Releasing 7.85+14.10.20140708-0ubuntu1
+
+2014-07-08 15:06:14 +0000 Michal Hruby (0447335)
+
+	* Added definitions for expansion queries. Approved by: PS Jenkins
+          bot, Michał Sawicz, PS Jenkins bot
+
+2014-07-08 15:06:03 +0000 Pete Woods (ad70bf4)
+
+	* Add settings support for shell Approved by: PS Jenkins bot, PS
+          Jenkins bot, PS Jenkins bot, Michał Sawicz, PS Jenkins
+          bot, PS Jenkins bot, PS Jenkins bot, Michal Hruby
+
+2014-07-08 15:05:49 +0000 Michi Henning (10503a7)
+
+	* A few minor fixes to the doc comments for comparison operators.
+          Approved by: PS Jenkins bot, PS Jenkins bot, Marcus
+          Tomlinson
+
+2014-07-08 12:06:08 +0100 Michal Hruby (6b7bf6d)
+
+	* Update changelog
+
+2014-07-08 12:02:23 +0100 Michal Hruby (e60c724)
+
+	* Rename expansionQuery to headerLink
+
+2014-07-08 10:30:20 +0100 Pete Woods (30ec9a5)
+
+	* Add count property to SettingsModelInterface
+
+2014-07-08 09:51:32 +0100 Michal Hruby (07bd4c8)
+
+	* Merge lp:~unity-api-team/unity-api/scope-settings-shell
+
+2014-07-04 10:52:10 +0100 Michal Hruby (b08572d)
+
+	* Added expansion queries
+
+2014-07-03 11:25:18 +0100 Pete Woods (7692696)
+
+	* Remove dead code
+
+2014-07-03 11:21:34 +0100 Pete Woods (5fb8e9c)
+
+	* Add basic tests for settings interface
+
+2014-07-03 10:21:19 +0200 Marcus Tomlinson (4149553)
+
+	* Bumped correct API version
+
+2014-07-03 07:24:20 +0200 Marcus Tomlinson (d56f7a0)
+
+	* Bumped versions
+
+2014-07-03 07:05:36 +0200 Marcus Tomlinson (91dbc92)
+
+	* Formatted enum as per Michal's suggestion
+
+2014-07-03 07:03:32 +0200 Marcus Tomlinson (1edb4a2)
+
+	* Merged trunk
+
+2014-07-03 07:00:00 +0200 Marcus Tomlinson (2cee33a)
+
+	* Merged IniParser changes
+
+2014-07-02 15:17:17 +0000 CI bot (3168a51)
+
+	* Releasing 7.84+14.10.20140702.2-0ubuntu1
+
+2014-07-02 15:17:08 +0000 Marcus Tomlinson (5def566)
+
+	* Add missing IniParser::get_locale_string_array() method
+
+2014-07-02 16:16:19 +0100 Michal Hruby (bf73535)
+
+	* Fix the workaround
+
+2014-07-02 15:50:48 +0100 Michal Hruby (7472d1b)
+
+	* Workaround issue with arm64 compiler
+
+2014-07-02 12:35:16 +0100 Michal Hruby (f0c6827)
+
+	* Bump versions
+
+2014-07-02 12:33:09 +0100 Michal Hruby (1f0a125)
+
+	* Merge trunk
+
+2014-07-02 12:42:23 +0200 Marcus Tomlinson (ade5c63)
+
+	* Reverted unity::util changes
+
+2014-07-02 12:41:36 +0200 Marcus Tomlinson (7cd2a0d)
+
+	* Reverted unity::shell changes
+
+2014-07-01 17:56:29 +1000 Michi Henning (eb10e1a)
+
+	* Set environment variables after all. (I mis-read Jussi's comments.)
+
+2014-07-01 10:43:05 +1000 Michi Henning (167300d)
+
+	* Require g++ 4.9 for the build.
+
+2014-06-30 16:28:35 +1000 Michi Henning (b8de439)
+
+	* Shorted some lines for readability.
+
+2014-06-30 16:26:50 +1000 Michi Henning (1a53440)
+
+	* Added support for localized string arrays to IniParser. Also fixed
+          test to use correct order of actual and expected values.
+
+2014-06-26 11:05:05 +0000 CI bot (ebe7088)
+
+	* Releasing 7.83+14.10.20140626-0ubuntu1
+
+2014-06-26 11:04:55 +0000 Michal Hruby (6d8110e)
+
+	* Added customizations property to ScopeInterface.
+
+2014-06-26 09:20:18 +0100 Michal Hruby (01f8ba7)
+
+	* Revert the version bump, cause it's was not synced with debian
+          anyway
+
+2014-06-26 09:46:22 +1000 Michi Henning (b0501c4)
+
+	* Oops, a few more corresponding comment fixes.
+
+2014-06-26 09:30:16 +1000 Michi Henning (23f4389)
+
+	* Fixed a few doc comments.
+
+2014-06-23 10:09:33 +0100 Michal Hruby (47a63b3)
+
+	* Act on review comments
+
+2014-06-20 11:31:18 +0100 Michal Hruby (0513d45)
+
+	* Added customizations property
+
+2014-06-16 14:45:10 +0000 CI bot (34881c6)
+
+	* Releasing 7.82+14.10.20140616-0ubuntu1
+
+2014-06-16 14:45:00 +0000 Michal Hruby (accaab3)
+
+	* Add Departments interfaces  Fixes: 1320847
+
+2014-06-12 12:09:00 +0100 Pete Woods (c15f4c0)
+
+	* Use writable "value" property instead of explicit "setter"
+
+2014-06-11 18:10:03 +0100 Pete Woods (97dd2bf)
+
+	* Add SettingsModelInterface API
+
+2014-05-29 14:25:47 +0200 Albert Astals (8916340)
+
+	* Add the two new methods to the test
+
+2014-05-29 12:24:53 +0200 Albert Astals (8781022)
+
+	* Changes due to review
+
+2014-05-29 09:28:35 +0200 Albert Astals (1769c94)
+
+	* Merge
+
+2014-05-29 09:21:10 +0200 Albert Astals (836fddf)
+
+	* Fixed the tag name in case it fails we get a meaningful error
+
+2014-05-29 09:20:15 +0200 Albert Astals (5d9e4d4)
+
+	* Forgot these files ^_^
+
+2014-05-28 16:47:43 +0200 Albert Astals (ddc668e)
+
+	* Add interfaces for scope departments.
+
+2014-05-28 16:44:30 +0200 Albert Astals (2aa4422)
+
+	* docu
+
+2014-05-28 16:39:16 +0200 Albert Astals (c952c3c)
+
+	* Add tests
+
+2014-05-28 16:10:14 +0200 Albert Astals (bfc5506)
+
+	* Don't change this order
+
+2014-05-28 16:08:06 +0200 Albert Astals (e6117f2)
+
+	* compile
+
+2014-05-28 15:58:37 +0200 Michal Hruby (77af39f)
+
+	* Added basics of Departments
+
+2014-05-28 10:38:05 +0000 CI bot (4ff3e53)
+
+	* Releasing 7.81+14.10.20140528-0ubuntu1
+
+2014-05-28 10:37:57 +0000 Michael Zanetti (e9bf980)
+
+	* properly parent MockApplicationInfo objects in the mock plugin. QML
+          might delete them otherwise.
+
+2014-05-28 10:37:44 +0000 Michael Zanetti (4b191e2)
+
+	* properly parent mock items otherwise QML deletes them as of 5.2
+          Fixes: 1318889
+
+2014-05-23 10:35:43 +0200 Michael Zanetti (6943b7d)
+
+	* also properly parent MockApplicationInfo objects
+
+2014-05-22 13:56:31 +0200 Michael Zanetti (1480248)
+
+	* properly parent mock items otherwise QML deletes them as of 5.2
+
+2014-05-20 12:05:11 +0000 CI bot (cbdb72d)
+
+	* Releasing 7.81+14.10.20140520-0ubuntu1
+
+2014-05-20 12:05:03 +0000 Michal Hruby (62ef2af)
+
+	* Scopes API for shell
+
+2014-05-20 12:04:54 +0000 Jussi Pakkanen (89a6e10)
+
+	* Add missing include so compilation works with pch disabled.
+
+2014-05-19 13:46:08 +0200 Albert Astals (193eae3)
+
+	* better email
+
+2014-05-19 13:45:31 +0200 Albert Astals (15eb6e1)
+
+	* TODO
+
+2014-05-19 13:45:10 +0200 Albert Astals (ca9207a)
+
+	* get -> getObject or remove if unneeded
+
+2014-05-19 11:24:42 +0200 Albert Astals (8246885)
+
+	* Sanitize gets
+
+2014-05-19 10:57:12 +0200 Albert Astals (15fb7bf)
+
+	* Forgot to test this method
+
+2014-05-19 10:52:14 +0200 Albert Astals (0cb68d6)
+
+	* Row count is abstractlistmodel
+
+2014-05-19 10:47:18 +0200 Albert Astals (87a1228)
+
+	* Indentation pedanticness
+
+2014-05-19 10:47:13 +0200 Albert Astals (e9f303a)
+
+	* Add the
+
+2014-05-19 10:42:28 +0200 Albert Astals (d81a2e4)
+
+	* add a
+
+2014-05-19 10:41:24 +0200 Albert Astals (c1a87df)
+
+	* Add some spaces to make reviewer happier :)
+
+2014-05-15 17:22:09 +0200 Albert Astals (3a7d7fd)
+
+	* Add interfaces for scopes.
+
+2014-05-15 13:08:10 +0100 Michal Hruby (100a085)
+
+	* Drop unneeded method from tests
+
+2014-05-15 13:04:55 +0100 Michal Hruby (23d5891)
+
+	* Added docstrings
+
+2014-05-14 10:19:03 +0200 Albert Astals (4d848d6)
+
+	* Add chaining constructors
+
+2014-05-14 10:01:50 +0200 Albert Astals (bd7ecbf)
+
+	* Make sure the QHash doesn't go away
+
+2014-05-13 15:52:12 +0200 Albert Astals (35d2ca9)
+
+	* Add mock + tests
+
+2014-05-13 12:45:29 +0200 Albert Astals (016f519)
+
+	* put the rolenames map in the interface too
+
+2014-05-13 11:15:38 +0200 Albert Astals (d159bf9)
+
+	* These will be documented with the property
+
+2014-05-13 10:12:28 +0200 Albert Astals (84ccff3)
+
+	* Update to 2014 and remove Authors as suggested
+
+2014-05-12 17:03:56 +0200 Albert Astals (07ebbf7)
+
+	* change to QString
+
+2014-05-12 16:29:33 +0200 Albert Astals (443e3e2)
+
+	* API from unity-scopes-shell
+
+2014-05-05 12:02:22 +0000 CI bot (e4e9544)
+
+	* Releasing 7.80.8+14.10.20140505-0ubuntu1
+
+2014-05-05 12:02:12 +0000 Mirco Müller (e056ea2)
+
+	* Bump notification interface version because of the added exposure
+          of NotificationModel's Roles-enum.
+
+2014-05-05 11:15:25 +0200 Mirco Müller (291f79e)
+
+	* Merged with trunk.
+
+2014-05-05 10:08:59 +0200 Mirco Müller (87cdda8)
+
+	* Another version-bump was needed, because another branch was merged
+          to trunk before this one.
+
+2014-04-29 17:10:05 +0300 Jussi Pakkanen (0f763f9)
+
+	* Added missing mutex.
+
+2014-04-28 17:28:16 +0000 CI bot (e04c491)
+
+	* Releasing 7.80.7+14.10.20140428.1-0ubuntu1
+
+2014-04-28 17:28:07 +0000 Michal Hruby (0e53607)
+
+	* Implemented IniParser::get_locale_string.
+
+2014-04-28 14:52:06 +0200 Mirco Müller (76178b7)
+
+	* Doh
+
+2014-04-28 14:47:04 +0200 Mirco Müller (66b7b55)
+
+	* Redone the version-bump for the unity-notification interface.
+
+2014-04-28 14:30:29 +0200 Mirco Müller (3b91de5)
+
+	* Merged mhr3's localized-strings branch.
+
+2014-04-28 14:28:13 +0200 Mirco Müller (63416dd)
+
+	* Reverted all my changes.
+
+2014-04-23 17:32:46 +0100 Michal Hruby (bc95444)
+
+	* Add more tests
+
+2014-04-23 14:24:33 +0100 Michal Hruby (2dd1b1c)
+
+	* Implemented IniParser::get_locale_string
+
+2014-04-23 15:00:27 +0200 Mirco Müller (11498f1)
+
+	* A upstream version-bump is needed too.
+
+2014-04-16 15:28:18 +0200 Mirco Müller (1d5f484)
+
+	* Update debian/changelog entry
+
+2014-04-16 14:36:56 +0200 Mirco Müller (0eb4603)
+
+	* Bumped the unity-api version from 0.1.2 to 0.1.3, because the added
+          exposure of the NotificationModel's Roles-Enum in r126
+          needs to be trackable by the api-consumers outside.
+
+2014-04-02 17:42:42 +0000 CI bot (dad7fcb)
+
+	* Releasing 7.80.6+14.04.20140402-0ubuntu1
+
+2014-04-02 17:42:33 +0000 Mirco Müller (cedfeb3)
+
+	* The data-roles of the NotificationModel to should be exposed to
+          QML.
+
+2014-04-02 17:42:26 +0000 Michi Henning (0151efc)
+
+	* Made calls to IniParser constructor and destructor thread-safe.
+          Without this, if the destructor is called from a different
+          thread than the constructor, we get complaints from thread
+          sanitizer.
+
+2014-04-01 22:41:05 +0000 CI bot (48f64e5)
+
+	* Releasing 7.80.6+14.04.20140401-0ubuntu1
+
+2014-04-01 22:40:57 +0000 Michael Zanetti (575529a)
+
+	* Add API to allow unity8 to control the app focusing states a bit
+          better and to move the screenshot logic into the
+          ApplicationManager instead of doing that with QML.
+
+2014-04-01 23:17:30 +0100 Michał Sawicz (2c024ad)
+
+	* Tweak changelog to make the bump UNRELEASED.
+
+2014-03-31 18:00:27 +0200 Mirco Müller (4ca2d47)
+
+	* Renamed enum to just Roles... added enum verification to
+          NotificationModel test.
+
+2014-03-25 12:01:07 +0100 Mirco Müller (e601ff9)
+
+	* Exposing the data-roles of the NotificationModel to QML... not used
+          yet directly, but we want to keep things in sync as much
+          as possible.
+
+2014-03-25 10:57:07 +0100 Michael Zanetti (ff1ec10)
+
+	* bump it more
+
+2014-03-25 10:55:32 +0100 Michael Zanetti (9935d10)
+
+	* Bump version for Application api changes
+
+2014-03-25 10:54:51 +0100 Michael Zanetti (ff87ae0)
+
+	* merge trunk
+
+2014-03-10 13:40:25 +0100 Michael Zanetti (431e3d9)
+
+	* fix docs after changing return type
+
+2014-03-10 13:34:16 +0100 Michael Zanetti (1b279ad)
+
+	* rename activateApplication() to requestFocusApplication(), also
+          changing its return value to bool
+
+2014-03-10 13:18:42 +0100 Michael Zanetti (d824fdd)
+
+	* change updateScreenshot to return a bool instead of void
+
+2014-03-10 13:09:53 +0100 Michael Zanetti (4cd6497)
+
+	* fix typo
+
+2014-03-04 13:52:36 +0000 CI bot (f0f9e1b)
+
+	* Releasing 7.80.5+14.04.20140304-0ubuntu1
+
+2014-03-04 13:52:26 +0000 CI bot (99f63d2)
+
+	* No change rebuild against Qt 5.2.1.
+
+2014-03-04 11:50:44 +0100 Michael Zanetti (655f1ae)
+
+	* bump version for app api
+
+2014-02-18 10:45:14 +1000 Michi Henning (3dad3a5)
+
+	* Made calls to IniParser constructor and destructor thread-safe.
+          Without this, if the destructor is called from a different
+          thread than the constructor, we get complaints from thread
+          sanitizer.
+
+2014-02-06 14:59:53 +0100 Michael Zanetti (2459069)
+
+	* introduce suspended property to applicationmanager.
+
+2014-02-05 00:00:24 +0100 Michael Zanetti (7a09823)
+
+	* merge trunk
+
+2014-01-21 21:04:15 +0000 Automatic PS uploader (d415cd1)
+
+	* Releasing 7.80.5+14.04.20140120-0ubuntu1 (revision 119 from
+          lp:unity-api).
+
+2014-01-20 16:05:43 +0000 Automatic PS uploader (099923b)
+
+	* Releasing 7.80.5+14.04.20140120-0ubuntu1, based on r119
+
+2014-01-10 11:23:38 +0100 Michael Zanetti (971c106)
+
+	* merge trunk
+
+2014-01-02 03:22:08 +0000 Michi Henning (9418012)
+
+	* Removed final semicolon from NONCOPYABLE macro. This makes the
+          usage consistent with the UNITY_DEFINES_PTRS macro, which
+          also does not include the semicolon.
+
+2013-12-27 03:28:13 +0000 Jussi Pakkanen (88a3860)
+
+	* Remove deprecated NonCopyable base class.
+
+2013-12-27 13:15:35 +1000 Michi Henning (8024076)
+
+	* Removed final semicolon from NONCOPYABLE macro. This makes the
+          usage consistent with the UNITY_DEFINES_PTRS macro, which
+          also does not include the semicolon.
+
+2013-12-20 17:25:24 +0200 Jussi Pakkanen (9634a52)
+
+	* X
+
+2013-12-20 14:36:52 +0100 Michael Zanetti (e5aaf3b)
+
+	* update mocks and tests accordingly
+
+2013-12-20 13:26:01 +0200 Jussi Pakkanen (5cd5567)
+
+	* Remove deprecated noncopyable class.
+
+2013-12-20 01:33:03 +0000 Automatic PS uploader (e3b28ac)
+
+	* Releasing 7.80.5+14.04.20131219.1-0ubuntu1 (revision 116 from
+          lp:unity-api).
+
+2013-12-19 21:07:55 +0000 Automatic PS uploader (7dc8959)
+
+	* Releasing 7.80.5+14.04.20131219.1-0ubuntu1, based on r116
+
+2013-12-17 17:44:00 +0100 Michael Zanetti (0dab331)
+
+	* add API for better controlling the app lifecycle flow from within
+          unity
+
+2013-12-17 11:18:35 +0000 Michal Hruby (f694ee3)
+
+	* Expose full version including micro version number in pc file.
+
+2013-12-17 11:18:03 +0100 Michal Hruby (7d303d8)
+
+	* Remove extra whitespace
+
+2013-12-17 10:54:46 +0100 Michal Hruby (7c274a4)
+
+	* Expose full version including micro version number in pc file
+
+2013-12-17 01:48:32 +0000 Michi Henning (ffd8920)
+
+	*   Changed unity::Exception to return the same string as
+          to_string(). This means that it is no longer necessary  
+          to treat unity::Exception differently from std::exception
+          for structured exception handling: catching std::exception
+            will catch unity::Exception as well, and call what()
+          produces the correct result. The pointer returned from
+          what()   remains valid until the next call to what(), or
+          until the exception is destroyed.
+
+2013-12-17 11:20:22 +1000 Michi Henning (91e2467)
+
+	* Fixed email address in changelog.
+
+2013-12-17 08:42:49 +1000 Michi Henning (37ec1c6)
+
+	* Another attempt at getting Jenkins to accept the changelog.
+
+2013-12-17 08:25:20 +1000 Michi Henning (79b69e2)
+
+	* Merged trunk and resolved conflict.
+
+2013-12-17 05:01:59 +1000 Michi Henning (9a51e7b)
+
+	* Shortened changelog message.
+
+2013-12-16 06:27:03 +0000 Jussi Pakkanen (f875680)
+
+	* Made noncopyable a macro.
+
+2013-12-16 06:47:17 +1000 Michi Henning (544904a)
+
+	* Updated changelog.
+
+2013-12-13 14:04:56 +0200 Jussi Pakkanen (510233b)
+
+	* Swith all classes to using the NONCOPYABLE macro.
+
+2013-12-13 13:37:00 +0200 Jussi Pakkanen (7d82f21)
+
+	* Added NONCOPYABLE macro.
+
+2013-12-13 14:07:41 +1000 Michi Henning (7acf591)
+
+	* Changed unity::Exception to return the same string as to_string().
+          This means that it is no longer necessary to treat
+          unity::Exception differently from std::exception for
+          structured exception handling: catching std::exception
+          will catch unity::Exception as well, and call what()
+          produces the correct result. The pointer returned from
+          what() remains valid until the next call to what(), or
+          until the exception is destroyed.
+
+2013-12-11 12:28:22 +0100 Michael Zanetti (819fe03)
+
+	* update mocks and tests to reflect API change
+
+2013-12-11 12:04:11 +0100 Michael Zanetti (a1480e3)
+
+	* add screenshotChanged signal
+
+2013-12-11 12:00:35 +0100 Michael Zanetti (a16336e)
+
+	* revert unrelated whitespace change
+
+2013-12-11 11:49:35 +0100 Michael Zanetti (c3ff285)
+
+	* proposal for new screenshots api
+
+2013-11-27 10:17:14 +0000 Automatic PS uploader (5b3ccec)
+
+	* Releasing 7.80.4+14.04.20131126.2-0ubuntu1 (revision 112 from
+          lp:unity-api).
+
+2013-11-26 19:42:23 +0000 Automatic PS uploader (701ce54)
+
+	* Releasing 7.80.4+14.04.20131126.2-0ubuntu1, based on r112
+
+2013-11-19 10:14:09 +0000 Michal Hruby (7f671d1)
+
+	* Added pkg-config variable for shell plugin directory.
+
+2013-11-18 17:34:38 +0000 Michal Hruby (1583b6f)
+
+	* Expose the plugindir suffix
+
+2013-11-18 11:36:56 +0000 Michal Hruby (89062b9)
+
+	* Add pkg-config variable to get plugin directory
+
+2013-11-18 09:17:17 +0000 Albert Astals (ac65d2e)
+
+	* Avoid cmake warnings
+
+2013-11-06 15:21:44 +0100 Albert Astals (d097a60)
+
+	* Avoid cmake warnings
+
+2013-10-25 07:33:35 +0000 Michi Henning (7ed6807)
+
+	* Removed obsolete doxygen config variable that caused a warning
+          during the build.
+
+2013-10-23 15:30:24 +1000 Michi Henning (5a031f2)
+
+	* Removed obsolete doxygen config variable.
+
+2013-10-21 07:44:13 +0000 Michi Henning (89610f7)
+
+	* Fix warning from clang when building libgtest about unused field.
+
+2013-10-21 14:34:38 +1000 Michi Henning (55b8656)
+
+	* Fix warning from clang about unused field in gtest.
+
+2013-10-18 08:59:54 +0000 Michi Henning (0b33fa5)
+
+	* Don't set -fno-permissive when compiling with clang because clang
+          produces an "ignored" warning for this flag.
+
+2013-10-18 13:01:29 +1000 Michi Henning (c1e72fb)
+
+	* Removed trailing whitespace from previous commit.
+
+2013-10-18 12:33:12 +1000 Michi Henning (c0d77b7)
+
+	* Don't -fno-permissive when compiling with clang because clang
+          produces an "ignored" warning for this flag.
+
+2013-09-27 16:33:50 +0000 Automatic PS uploader (ce311fd)
+
+	* Releasing 7.80.3+13.10.20130927.1-0ubuntu1 (revision 106 from
+          lp:unity-api).
+
+2013-09-27 10:32:57 +0000 Automatic PS uploader (14fac90)
+
+	* Releasing 7.80.3+13.10.20130927.1-0ubuntu1, based on r106
+
+2013-09-26 07:17:51 +0000 Michi Henning (92ce4e8)
+
+	* Reverting commit 89, which added -D_GLIBCXX_DEBUG. This has truly
+          hideous consequences when calling cross-library and
+          passing STL types. If not all libraries involved are
+          compiled with the same flag, the code links and runs and,
+          in many cases, will work, except in some cases, where
+          suddenly the stack gets trashed, the code segfaults on a
+          memory allocation, or similar.
+
+2013-09-26 12:48:38 +1000 Michi Henning (7b93e89)
+
+	* Reverting commit 89, which added -D_GLIBCXX_DEBUG. This has truly
+          hideous consequences when calling cross-library and
+          passing STL types. If not all libraries involved are
+          compiled with the same flag, the code links and runs and,
+          in many cases, will work, except in some cases, where
+          suddenly the stack gets trashed, the code segfaults on a
+          memory allocation, or similar.
+
+2013-09-25 13:48:20 +0000 Michi Henning (350cf9f)
+
+	* Changed pkgconfig to use absolute path for Libs, so things will
+          work if the package is installed in a non-standard
+          location.
+
+2013-09-25 23:12:27 +1000 Michi Henning (9db69e5)
+
+	* Fixed bug from last commit.
+
+2013-09-25 22:40:41 +1000 Michi Henning (603db8d)
+
+	* Merged proposed branch.
+
+2013-09-25 22:36:27 +1000 Michi Henning (5d79d9e)
+
+	* Addressed Jussi's comment about specifying libdir and includedir
+          consistently for MR
+          https://code.launchpad.net/~michihenning/unity-api/fix-pkgconfig/+merge/187433
+
+2013-09-25 11:06:44 +1000 Michi Henning (141a610)
+
+	* Changed pkgconfig to use absolute path for Libs, so things will
+          work if the package is installed in a non-standard
+          location.
+
+2013-09-12 15:35:15 +0000 Automatic PS uploader (78c9f44)
+
+	* Releasing 7.80.3+13.10.20130912-0ubuntu1 (revision 103 from
+          lp:unity-api).
+
+2013-09-12 13:45:40 +0000 Automatic PS uploader (dea44f8)
+
+	* Releasing 7.80.3+13.10.20130912-0ubuntu1, based on r103
+
+2013-09-12 08:24:36 +0000 Michael Zanetti (7bc886a)
+
+	* update Launcher API to make use of the new ApplicationManager api.
+
+2013-09-11 17:34:12 +0200 Michael Zanetti (81cc3f1)
+
+	* fix cond/endcond
+
+2013-09-11 17:28:22 +0200 Michael Zanetti (84db5d5)
+
+	* update Launcher API to make use of the new ApplicationManager api
+
+2013-09-11 02:06:10 +0000 Automatic PS uploader (4cc66e3)
+
+	* Releasing 7.80.3+13.10.20130911-0ubuntu1 (revision 101 from
+          lp:unity-api).
+
+2013-09-11 00:29:43 +0000 Automatic PS uploader (9753781)
+
+	* Releasing 7.80.3+13.10.20130911-0ubuntu1, based on r101
+
+2013-09-09 12:15:17 +0000 Gerry Boland (c49b1e0)
+
+	* Shell::Application: Apply Q_ENUMS to the Roles enum so
+          implementations can use it.
+
+2013-09-09 12:59:06 +0200 Gerry Boland (b882d05)
+
+	* Shell::Application: Apply Q_ENUMS to the Roles enum so
+          implementations can use it
+
+2013-09-05 12:32:59 +0000 Automatic PS uploader (c4cfbac)
+
+	* Releasing 7.80.3+13.10.20130905.2-0ubuntu1 (revision 99 from
+          lp:unity-api).
+
+2013-09-05 10:47:48 +0000 Automatic PS uploader (41dd5bf)
+
+	* Releasing 7.80.3+13.10.20130905.2-0ubuntu1, based on r99
+
+2013-09-05 09:00:55 +0000 Michael Zanetti (c60a723)
+
+	* add focused role to model.
+
+2013-09-04 20:52:27 +0200 Michael Zanetti (ef00cf1)
+
+	* add focused role support to launchermodel
+
+2013-09-04 15:34:33 +0000 Michael Zanetti (edfa933)
+
+	* add applicationFocused method to LauncherModelInterface.
+
+2013-09-04 15:12:24 +0000 Gerry Boland (ca5d2a8)
+
+	* AppManager: change startApplication to return ApplicationInfo, is
+          useful for shell.
+
+2013-09-04 15:26:40 +0200 Gerry Boland (8b5da36)
+
+	* AppManager: change startApplication to return ApplicationInfo, is
+          useful for shell
+
+2013-09-04 12:39:06 +0200 Michael Zanetti (10bdadf)
+
+	* add applicationFocused method to launcher
+
+2013-09-04 05:46:59 +0000 Automatic PS uploader (7fcc148)
+
+	* Releasing 7.80.3+13.10.20130904-0ubuntu1 (revision 95 from
+          lp:unity-api).
+
+2013-09-04 03:02:27 +0000 Automatic PS uploader (50b777d)
+
+	* Releasing 7.80.3+13.10.20130904-0ubuntu1, based on r95
+
+2013-09-03 16:00:59 +0000 Gerry Boland (c4e1d5e)
+
+	* ApplicationManagerInterface: adjust API to use appId for app
+          start/stop/focus. Return ApplicationInfoInterface only in
+          get(index) and the new findApplication(appId) methods.
+
+2013-09-03 15:52:06 +0200 Gerry Boland (d79ab99)
+
+	* Rename property focusedApplication to focusedApplicationId
+
+2013-09-03 15:49:52 +0200 Gerry Boland (b6655be)
+
+	* Fix doc errors
+
+2013-09-03 15:47:50 +0200 Gerry Boland (b923e7c)
+
+	* Remove const from get(index)
+
+2013-09-03 14:20:17 +0200 Gerry Boland (cb6bbd5)
+
+	* Missing full stop
+
+2013-09-03 14:17:44 +0200 Gerry Boland (cc8f932)
+
+	* ApplicationManagerInterface: adjust API to use appId for app
+          start/stop/focus. Return ApplicationInfoInterface only in
+          get(index) and the new findApplication(appId) methods.
+
+2013-09-03 07:47:05 +0000 Automatic PS uploader (2039284)
+
+	* Releasing 7.80.3+13.10.20130903.1-0ubuntu1 (revision 93 from
+          lp:unity-api).
+
+2013-09-03 06:09:20 +0000 Automatic PS uploader (6d874f3)
+
+	* Releasing 7.80.3+13.10.20130903.1-0ubuntu1, based on r93
+
+2013-09-02 07:59:49 +0000 Jussi Pakkanen (19addb9)
+
+	* Use glibc's memory validator.
+
+2013-09-02 10:12:56 +0300 Jussi Pakkanen (c359d50)
+
+	* Use glibc's memory checker.
+
+2013-09-02 05:17:34 +0000 Automatic PS uploader (7b40707)
+
+	* Releasing 7.80.3+13.10.20130902-0ubuntu1 (revision 91 from
+          lp:unity-api).
+
+2013-09-02 02:29:21 +0000 Automatic PS uploader (7aebf0e)
+
+	* Releasing 7.80.3+13.10.20130902-0ubuntu1, based on r91
+
+2013-08-30 15:16:44 +0000 Michael Zanetti (b19125f)
+
+	* Add Ubuntu.Application API, including tests and a mock
+          implementation.
+
+2013-08-29 14:54:56 +0200 Michael Zanetti (d69d1b6)
+
+	* add moved plugins back
+
+2013-08-29 14:46:31 +0200 Michael Zanetti (e45ba24)
+
+	* fixed a copy/paste mistake in comments (LauncherItem ->
+          ApplicationInfo)
+
+2013-08-29 14:38:58 +0200 Michael Zanetti (b5bd5bc)
+
+	* move to Unity.Application, fix tests
+
+2013-08-29 14:27:06 +0200 Michael Zanetti (a23e002)
+
+	* fix type, rename start/stopProcess
+
+2013-08-29 13:33:59 +0200 Michael Zanetti (09b2856)
+
+	* make it compile, add tests and a mock implementation
+
+2013-08-29 12:07:31 +0200 Michael Zanetti (e1d6634)
+
+	* improve app manager's doc
+
+2013-08-29 12:00:16 +0200 Michael Zanetti (c416548)
+
+	* make focusedApplication a read only property
+
+2013-08-29 11:44:51 +0200 Michael Zanetti (4115eab)
+
+	* worked in feedback from Gerry
+
+2013-08-28 18:16:36 +0200 Michael Zanetti (643c203)
+
+	* add applicationmanager and applicationlistmodel
+
+2013-08-28 17:20:20 +0200 Michael Zanetti (472bb7d)
+
+	* applicationmanager -> application
+
+2013-08-26 11:02:32 +0000 Automatic PS uploader (d9e4deb)
+
+	* Releasing 7.80.3+13.10.20130826.2-0ubuntu1 (revision 89 from
+          lp:unity-api).
+
+2013-08-26 10:08:34 +0000 Automatic PS uploader (470c42c)
+
+	* Releasing 7.80.3+13.10.20130826.2-0ubuntu1, based on r89
+
+2013-08-26 09:41:22 +0000 Jussi Pakkanen (99a4d10)
+
+	* Enable validating STL on debug builds.
+
+2013-08-26 10:16:21 +0300 Jussi Pakkanen (29a3cfa)
+
+	* Enable validating STL on debug builds.
+
+2013-08-26 07:03:12 +0000 Automatic PS uploader (66b3de9)
+
+	* Releasing 7.80.3+13.10.20130826.1-0ubuntu1 (revision 87 from
+          lp:unity-api).
+
+2013-08-26 06:08:18 +0000 Automatic PS uploader (894f2fa)
+
+	* Releasing 7.80.3+13.10.20130826.1-0ubuntu1, based on r87
+
+2013-08-26 05:47:04 +0000 Automatic PS uploader (d0f0c04)
+
+	* Releasing 7.80.3+13.10.20130826-0ubuntu1 (revision 86 from
+          lp:unity-api).
+
+2013-08-26 02:31:24 +0000 Automatic PS uploader (33aceb0)
+
+	* Releasing 7.80.3+13.10.20130826-0ubuntu1, based on r86
+
+2013-08-22 16:25:18 +0000 Michael Zanetti (5309228)
+
+	* Add setUser method to LauncherModel.
+
+2013-08-22 16:43:49 +0200 Michael Zanetti (a78be62)
+
+	* add setUser() to LauncherModel
+
+2013-08-20 11:32:51 +0000 Automatic PS uploader (1e9f8af)
+
+	* Releasing 7.80.3+13.10.20130820.2-0ubuntu1 (revision 84 from
+          lp:unity-api).
+
+2013-08-20 10:09:28 +0000 Automatic PS uploader (474dde9)
+
+	* Releasing 7.80.3+13.10.20130820.2-0ubuntu1, based on r84
+
+2013-08-20 07:02:34 +0000 Automatic PS uploader (93a6b95)
+
+	* Releasing 7.80.3+13.10.20130820.1-0ubuntu1 (revision 82 from
+          lp:unity-api).
+
+2013-08-20 06:17:00 +0000 Automatic PS uploader (742cee0)
+
+	* Releasing 7.80.3+13.10.20130820-0ubuntu1 (revision 82 from
+          lp:unity-api).
+
+2013-08-20 06:08:22 +0000 Automatic PS uploader (065098f)
+
+	* Releasing 7.80.3+13.10.20130820.1-0ubuntu1, based on r82
+
+2013-08-20 02:08:23 +0000 Automatic PS uploader (4c6ad5e)
+
+	* Releasing 7.80.3+13.10.20130820-0ubuntu1, based on r82
+
+2013-08-19 13:40:46 +0000 Michael Zanetti (767d8a4)
+
+	* Add a role, clickable to quicklistModel which determines if the
+          entry can be clicked or not.
+
+2013-08-19 15:29:21 +0200 Michael Zanetti (bdb7305)
+
+	* HasAction -> Clickable
+
+2013-08-19 14:48:19 +0200 Michael Zanetti (dbdbf98)
+
+	* add a role, hasAction to quicklistModel which determines if the
+          entry can be clicked or not
+
+2013-08-01 16:47:44 +0000 Automatic PS uploader (363b609)
+
+	* Releasing 7.80.3+13.10.20130801-0ubuntu1 (revision 80 from
+          lp:unity-api).
+
+2013-08-01 14:30:16 +0000 Automatic PS uploader (1c66850)
+
+	* Releasing 7.80.3+13.10.20130801-0ubuntu1, based on r80
+
+2013-07-29 08:17:36 +0000 Automatic PS uploader (aa240f5)
+
+	* Releasing 7.80.3+13.10.20130729ubuntu.unity.next-0ubuntu1 (revision
+          79 from lp:unity-api).
+
+2013-07-29 03:40:54 +0000 Automatic PS uploader (50b54be)
+
+	* Releasing 7.80.3+13.10.20130729ubuntu.unity.next-0ubuntu1, based on
+          r79
+
+2013-07-27 06:36:17 +0000 Michi Henning (4bd65de)
+
+	* Added UNITY_DEFINES_PTRS (needed by scopes). Added coverage
+          suppresssion for unreachable line of code.
+
+2013-07-27 06:05:59 +0000 Michi Henning (dfe7cfa)
+
+	* Changed DefinesPtrs to a macro. That way, we don't need a virtual
+          destructor, and the generated typedefs can be used with
+          POD types. The macro also prevents ambiguous names that
+          were caused by the template for classes in a derivation
+          hierarchy.
+
+2013-07-23 11:12:37 +1000 Michi Henning (4b88e52)
+
+	* Added UNITY_DEFINES_PTRS (needed by scopes). Added coverage
+          suppresssion for unreachable line of code.
+
+2013-07-23 10:51:14 +1000 Michi Henning (e435238)
+
+	* Changed DefinesPtrs to a macro. That way, we don't need a virtual
+          destructor, and the generated typedefs can be used with
+          POD types. The macro also prevents ambiguous names that
+          were caused by the template for class in a derivation
+          hierarchy.
+
+2013-07-09 06:02:48 +0000 Automatic PS uploader (abb3c24)
+
+	* Releasing 7.80.3+13.10.20130709ubuntu.unity.next-0ubuntu1 (revision
+          76 from lp:unity-api).
+
+2013-07-09 02:58:47 +0000 Automatic PS uploader (17472c2)
+
+	* Releasing 7.80.3+13.10.20130709ubuntu.unity.next-0ubuntu1, based on
+          r76
+
+2013-07-08 20:18:57 +0000 Michael Zanetti (7e40860)
+
+	* more work on launcher API
+
+2013-07-08 18:41:21 +0200 Michael Zanetti (574823c)
+
+	* fix indentation in launcher tests
+
+2013-07-08 18:39:41 +0200 Michael Zanetti (4b939dc)
+
+	* fix comments
+
+2013-07-08 18:32:22 +0200 Michael Zanetti (a22d1f6)
+
+	* fix comments for closing namespace braces
+
+2013-07-08 18:31:33 +0200 Michael Zanetti (e276070)
+
+	* remove logic from mocks and tests for it
+
+2013-07-08 18:28:14 +0200 Michael Zanetti (95174cc)
+
+	* make roleName maps static to save some CPU cycles
+
+2013-07-08 18:18:17 +0200 Michael Zanetti (c7aa545)
+
+	* comment improvement++
+
+2013-07-08 18:12:59 +0200 Michael Zanetti (dabb69f)
+
+	* improve some comments
+
+2013-07-08 14:56:01 +0200 Michael Zanetti (087260e)
+
+	* quickListIndex -> actionIndex
+
+2013-07-08 14:53:41 +0200 Michael Zanetti (0113068)
+
+	* fix typo in comment
+
+2013-07-08 13:29:05 +0200 Michael Zanetti (27032b3)
+
+	* some more suggested fixes
+
+2013-07-08 11:10:54 +0200 Michael Zanetti (28af9be)
+
+	* introduce appId property for items and use that for write
+          operations
+
+2013-07-08 09:55:46 +0200 Michael Zanetti (9b57c00)
+
+	* bump only the launcher version, not the API's minor version
+
+2013-07-05 17:47:08 +0200 Michael Zanetti (2f6fbae)
+
+	* bump it even more
+
+2013-07-05 17:40:08 +0200 Michael Zanetti (d1cc8af)
+
+	* bump the version a bit more
+
+2013-07-05 17:30:33 +0200 Michael Zanetti (3f7c39d)
+
+	* bump version numbers
+
+2013-07-05 17:18:46 +0200 Michael Zanetti (c338e26)
+
+	* move signal spy to top
+
+2013-07-05 17:17:43 +0200 Michael Zanetti (78aa389)
+
+	* fix header
+
+2013-07-05 17:15:53 +0200 Michael Zanetti (94c8de7)
+
+	* that shouldn't have gone in
+
+2013-07-05 17:14:34 +0200 Michael Zanetti (e63f44f)
+
+	* remove the two future roles from the docs. Will come back in
+          unity9.
+
+2013-07-05 12:24:34 +0200 Michael Zanetti (addb1b8)
+
+	* fix include guard
+
+2013-07-04 20:09:06 +0200 Michael Zanetti (c624af8)
+
+	* added method triggerQuickListAction
+
+2013-07-04 19:17:46 +0200 Michael Zanetti (a41a96c)
+
+	* more work on launcher API
+
+2013-07-03 05:47:40 +0000 Automatic PS uploader (fb82776)
+
+	* Releasing 7.80.2+13.10.20130703ubuntu.unity.next-0ubuntu1 to
+          ubuntu.
+
+2013-07-03 02:35:04 +0000 Automatic PS uploader (ab1cc06)
+
+	* Releasing 7.80.2+13.10.20130703ubuntu.unity.next-0ubuntu1, based on
+          r74
+
+2013-07-02 10:47:19 +0000 Michał Sawicz (d17dd4d)
+
+	* Do not require any particular version of boost.
+
+2013-07-02 12:03:10 +0200 Michał Sawicz (eb0a539)
+
+	* Do not require any particular boost version
+
+2013-07-02 08:17:42 +0000 Automatic PS uploader (084c6d5)
+
+	* Releasing 7.80.2+13.10.20130702ubuntu.unity.next-0ubuntu1 to
+          ubuntu.
+
+2013-07-02 02:31:07 +0000 Automatic PS uploader (55000f3)
+
+	* Releasing 7.80.2+13.10.20130702ubuntu.unity.next-0ubuntu1, based on
+          r72
+
+2013-06-28 09:41:50 +0000 Didier Roche (c0bb343)
+
+	* Add a better package description.
+
+2013-06-28 11:01:24 +0200 Didier Roche (de746b6)
+
+	* better package description
+
+2013-06-27 10:48:26 +0000 Automatic PS uploader (b43179b)
+
+	* Releasing 7.80.2+13.10.20130627ubuntu.unity.next-0ubuntu1 to
+          ubuntu.
+
+2013-06-27 09:48:56 +0000 Automatic PS uploader (56e430c)
+
+	* Releasing 7.80.2+13.10.20130627ubuntu.unity.next-0ubuntu1, based on
+          r70
+
+2013-06-27 09:19:39 +0000 Michi Henning (91b30e0)
+
+	* Renamed COPYING.LIB -> COPYING. Fixes:
+          https://bugs.launchpad.net/bugs/1194867.
+
+2013-06-27 08:33:10 +0000 Didier Roche (c44be4e)
+
+	* Prepare the package to enter saucy.
+
+2013-06-27 18:21:09 +1000 Michi Henning (621747d)
+
+	* Renamed COPYING.LIB -> COPYING.
+
+2013-06-27 07:55:39 +0200 Didier Roche (2002f0e)
+
+	* really take trunk version for headers
+
+2013-06-27 07:50:26 +0200 Didier Roche (e1da950)
+
+	* remerge with trunk and backout the license header change
+
+2013-06-27 05:47:56 +0000 Michi Henning (34e924d)
+
+	* Changed "Lesser GNU General Public License" to "GNU Lesser General
+          Public License" throughout. Fixed five files that used GPL
+          instead of LGPL. licensecheck comes up clean now,
+          reporting LGPL v3 for everything. Fixes:
+          https://bugs.launchpad.net/bugs/1194867.
+
+2013-06-27 09:47:34 +1000 Michi Henning (7ecfa66)
+
+	* Changed "Lesser GNU General Public License" to "GNU Lesser General
+          Public License" throughout. Fixed five files that used GPL
+          instead of LGPL. licensecheck comes up clean now,
+          reporting LGPL v3 for everything.
+
+2013-06-26 15:18:23 +0200 Didier Roche (c83c198)
+
+	* add bootstrap commit
+
+2013-06-26 15:16:28 +0200 Didier Roche (14bfd12)
+
+	* switch to format source 1, more compatible with dailies
+
+2013-06-26 15:16:14 +0200 Didier Roche (661c9cb)
+
+	* use CMAKE_INSTALL_LIB which already has the multiarch magic
+
+2013-06-26 15:08:18 +0200 Didier Roche (a52d82a)
+
+	* small debian/rules improvment
+
+2013-06-26 15:05:19 +0200 Didier Roche (45e7ce0)
+
+	* add missing debian/copyright headers
+
+2013-06-26 15:04:38 +0200 Didier Roche (f5d61ea)
+
+	* control and some licenses fixing, but then, opening a bug for more
+          license fix needed
+
+2013-06-24 09:48:02 +0000 Michi Henning (c8d83e2)
+
+	* Added astyle-config.
+
+2013-06-20 09:48:02 +0000 Jussi Pakkanen (7cdccf9)
+
+	* Added ini file parser.
+
+2013-06-20 10:39:49 +0300 Jussi Pakkanen (2465881)
+
+	* Merged trunk.
+
+2013-06-20 10:26:31 +0300 Jussi Pakkanen (dec972a)
+
+	* Surrendered to astyle.
+
+2013-06-20 10:18:18 +1000 Michi Henning (207f9d0)
+
+	* Added astyle-config.
+
+2013-06-19 16:01:24 +0000 Michael Zanetti (59ec1a6)
+
+	* Add Launcher API to unity-api.
+
+2013-06-19 15:45:38 +0000 Jussi Pakkanen (9d23136)
+
+	* Check for Clang in CMakeLists.txt.
+
+2013-06-19 18:06:31 +0300 Jussi Pakkanen (df06cb0)
+
+	* Check clang from within CMakeLists.txt.
+
+2013-06-19 16:59:50 +0200 Michael Zanetti (05c9f50)
+
+	* added testcase that checks if the model is here and of correct type
+
+2013-06-19 16:45:12 +0200 Michael Zanetti (19f7861)
+
+	* merge trunk
+
+2013-06-19 14:02:08 +0000 Jussi Pakkanen (47dbf29)
+
+	* Added precompiled header support to unity-api target.
+
+2013-06-19 15:28:46 +0200 Michael Zanetti (319c507)
+
+	* merged saviq's suggestions
+
+2013-06-19 15:28:46 +0300 Jussi Pakkanen (bb09659)
+
+	* Merged trunk.
+
+2013-06-19 12:16:12 +0000 Michi Henning (e159f47)
+
+	* This changes the build environment to link the tests against a
+          static version of the library, allows us to write unit
+          tests for internal classes that are not visible through
+          the public API (support classes in the internal namespace
+          that don't have a public pimple facade).
+
+2013-06-19 11:34:53 +0300 Jussi Pakkanen (cb5f93c)
+
+	* Merged trunk.
+
+2013-06-19 11:12:33 +0300 Jussi Pakkanen (c2666ac)
+
+	* Moved stars and ampersands around.
+
+2013-06-19 10:02:23 +0300 Jussi Pakkanen (390b182)
+
+	* Added documentation to precompiled header module.
+
+2013-06-19 08:48:09 +1000 Michi Henning (f4e3547)
+
+	* Changed build to use -fPIC only for the source files that go into
+          the .so and .a libraries. Improved comments and fixed some
+          typos in comments.
+
+2013-06-18 17:22:30 +0300 Jussi Pakkanen (39b966d)
+
+	* Added copyright header for the pch.
+
+2013-06-18 15:17:02 +0300 Jussi Pakkanen (7991aab)
+
+	* Made packaging CCache work nicely with pch.
+
+2013-06-18 15:15:32 +0300 Jussi Pakkanen (fae200f)
+
+	* Added precompiled header support for unity-api target.
+
+2013-06-18 08:54:49 +0000 Michi Henning (ceeacc7)
+
+	* Improved compliance with style guide: function and member function
+          definitions now with return type, class name, and function
+          name on one line.
+
+2013-06-18 14:03:26 +1000 Michi Henning (c72c9b4)
+
+	* This changes the build environment to link the tests against a
+          static version of the library, allows us to write unit
+          tests for internal classes that are not visible through
+          the public API.
+
+2013-06-18 12:10:19 +1000 Michi Henning (3d69812)
+
+	* Improved compliance with style guide: function and member function
+          definitions now with return type, class name, and function
+          name on one line.
+
+2013-06-17 08:02:36 +0000 Michi Henning (b501f5e)
+
+	* Added missing architecture directory to pkg-config file.
+
+2013-06-17 07:17:54 +0000 Michi Henning (f6f3b17)
+
+	* Removed unity::internal::ExceptionImpl and replaced it with
+          unity::ExceptionImplBase. This allows clients of unity-api
+          to derive their own exceptions for unity::Exception
+          without exposing any implementation details (so the ABI
+          won't break) and still take advantage of implementation
+          inheritance without having to reimplement all the
+          functionality of the base class.
+
+2013-06-17 14:55:33 +1000 Michi Henning (f393e6d)
+
+	* Merged trunk.
+
+2013-06-14 07:47:36 +0000 Michi Henning (e7b5f8d)
+
+	* Changed copyright headers to LGPLv3.
+
+2013-06-14 15:22:11 +1000 Michi Henning (01214d2)
+
+	* Merged trunk.
+
+2013-06-14 15:13:38 +1000 Michi Henning (802ebb9)
+
+	* Removed unity::internal::ExceptionImpl and replaced it with
+          unity::ExceptionImplBase.
+
+2013-06-14 10:38:57 +1000 Michi Henning (1fcbb08)
+
+	* Added COPYING.LIB with text for LGPLv3 from
+          http://www.gnu.org/licenses/lgpl.txt
+
+2013-06-14 10:30:12 +1000 Michi Henning (ac710eb)
+
+	* Changed include/unity/shell/notifications/CMakeLists.txt to use
+          ${LIBDIR} to install the .pc file in the correct location.
+
+2013-06-13 09:33:34 +0000 Michi Henning (d495cd4)
+
+	* Added warning if cppcheck isn't found. Fixes:
+          https://bugs.launchpad.net/bugs/1190374.
+
+2013-06-13 12:04:03 +0300 Jussi Pakkanen (dced39c)
+
+	* Doxygen function grouping.
+
+2013-06-13 11:39:24 +1000 Michi Henning (528131e)
+
+	* Trying to get the install working with jenkins...
+
+2013-06-13 11:30:17 +1000 Michi Henning (784bf0d)
+
+	* Added Multi-Arch to debian/rules as requested by didrocks. Removed
+          redundant libdir variable from CMakeLists.txt. Adjusted
+          libunity-api.pc.in to use LIBDIR.
+
+2013-06-13 08:07:05 +1000 Michi Henning (dc7aca2)
+
+	* Changed copyright headers to LGPLv3.
+
+2013-06-13 07:32:35 +1000 Michi Henning (ddcf744)
+
+	* Added warning if cppcheck isn't found.
+
+2013-06-12 21:32:09 +0000 Michi Henning (8d8645c)
+
+	* Renamed config.h -> DllExport.h. Removed Version.h.cmake, which is
+          was moldy oldie, now called Version.h.in. Fixes:
+          https://bugs.launchpad.net/bugs/1185319.
+
+2013-06-11 14:27:37 +0300 Jussi Pakkanen (3c52a66)
+
+	* Init count to 0 for extra explicitness.
+
+2013-06-11 12:42:07 +0200 Michael Zanetti (0981a9e)
+
+	* some more styling changes
+
+2013-06-11 12:34:58 +0200 Michael Zanetti (2cbd680)
+
+	* merge trunk
+
+2013-06-11 12:33:39 +0200 Michael Zanetti (08dbae4)
+
+	* "" -> <>
+
+2013-06-11 12:02:37 +0300 Jussi Pakkanen (34547ad)
+
+	* Put group name in error message.
+
+2013-06-11 11:40:02 +0300 Jussi Pakkanen (eb65e49)
+
+	* Added a space for better output message.
+
+2013-06-11 08:02:44 +0000 Michi Henning (af9cb56)
+
+	* Added --check-config to the cppcheck target, so we get better
+          diagnostics.
+
+2013-06-11 09:56:09 +1000 Michi Henning (b11c234)
+
+	* Added --check-config to the cppcheck target, so we get better
+          diagnostics.
+
+2013-06-10 17:28:30 +0200 Michael Zanetti (c1f86bf)
+
+	* fix ret values
+
+2013-06-10 16:23:29 +0200 Michael Zanetti (28dddc1)
+
+	* update tests
+
+2013-06-10 16:04:47 +0200 Michael Zanetti (6ae7121)
+
+	* fix some more warnings
+
+2013-06-10 15:23:41 +0200 Michael Zanetti (90b6442)
+
+	* some more styling
+
+2013-06-10 15:05:29 +0200 Michael Zanetti (2143fd2)
+
+	* whitespace--
+
+2013-06-10 14:58:52 +0200 Michael Zanetti (9af0b1f)
+
+	* made copyright headers consistent
+
+2013-06-10 14:49:34 +0200 Michael Zanetti (7e8aa7f)
+
+	* add documentation for the interface
+
+2013-06-10 14:33:25 +0200 Michael Zanetti (c809454)
+
+	* suppress false positives from cppcheck
+
+2013-06-10 14:27:02 +0200 Michael Zanetti (9511e45)
+
+	* fix ctor, add progress api
+
+2013-06-10 11:13:05 +0300 Jussi Pakkanen (8a251c6)
+
+	* Removed fluff Doxygen comments that are no longer required.
+
+2013-06-10 07:22:47 +0000 Michi Henning (40b22c1)
+
+	* Changed doxygen config to ignore symbols in any internal namespace,
+          so we don't need to add endless @cond/@endcond pairs .
+
+2013-06-08 06:54:19 +1000 Michi Henning (c950da8)
+
+	* Changed doxygen config to ignore symbols in any internal namespace,
+          so we don't need to add endless @cond/@endcond pairs.
+
+2013-06-07 14:30:19 +0300 Jussi Pakkanen (6214dbb)
+
+	* Added suppressions for GKeyFile.
+
+2013-06-07 14:12:21 +0300 Jussi Pakkanen (ec3c60f)
+
+	* Added Doxygen tags for every single function, even the painfully
+          obvious ones.
+
+2013-06-07 09:45:47 +0000 Michi Henning (3d491f0)
+
+	* Added -g to compile flags when building for coverage. That way,
+          valgrind and gdb will report line numbers.
+
+2013-06-07 12:09:43 +0300 Jussi Pakkanen (bc07ca6)
+
+	* Carry filename around and add it to exception descriptions.
+
+2013-06-07 12:00:40 +0300 Jussi Pakkanen (56f794e)
+
+	* Change exception type.
+
+2013-06-07 11:58:08 +0300 Jussi Pakkanen (b22214c)
+
+	* Added a few noexcepts.
+
+2013-06-07 11:51:05 +0300 Jussi Pakkanen (00e53fe)
+
+	* More allmanisation.
+
+2013-06-07 11:49:35 +0300 Jussi Pakkanen (75e019c)
+
+	* Changed exception type.
+
+2013-06-07 11:35:11 +0300 Jussi Pakkanen (9b06ce9)
+
+	* Changed exception type.
+
+2013-06-07 11:34:44 +0300 Jussi Pakkanen (2d3fa0d)
+
+	* Moved private struct to internal namespace.
+
+2013-06-07 11:07:57 +0300 Jussi Pakkanen (102cbe6)
+
+	* Changed to Allman style because opening braces are special little
+          snowflakes that _need_ a line of their own.
+
+2013-06-07 11:00:05 +0300 Jussi Pakkanen (b447563)
+
+	* Fix memory leak.
+
+2013-06-07 10:46:15 +0300 Jussi Pakkanen (fd05853)
+
+	* Add file name to exception message.
+
+2013-06-07 10:37:22 +0300 Jussi Pakkanen (3d169c0)
+
+	* Made_function_names_underscored.
+
+2013-06-07 09:34:50 +1000 Michi Henning (950f088)
+
+	* Added -g to compile flags when building for coverage. That way,
+          valgrind and gdb will report line numbers.
+
+2013-06-06 16:39:27 +0300 Jussi Pakkanen (e69f66f)
+
+	* Check for glib and gtest in public headers.
+
+2013-06-06 16:21:18 +0300 Jussi Pakkanen (5ad6822)
+
+	* Removed some leftover code.
+
+2013-06-06 16:20:11 +0300 Jussi Pakkanen (56ffecd)
+
+	* Added missing newline.
+
+2013-06-06 15:57:16 +0300 Jussi Pakkanen (0c66e8b)
+
+	* Some more tests and documentation.
+
+2013-06-06 15:42:16 +0300 Jussi Pakkanen (da7feb9)
+
+	* More IniParser tests.
+
+2013-06-06 15:16:33 +0300 Jussi Pakkanen (1dd4b16)
+
+	* First tests for IniParser.
+
+2013-06-06 15:02:05 +0300 Jussi Pakkanen (d51065f)
+
+	* Added test fixture for IniParser.
+
+2013-06-06 14:43:49 +0300 Jussi Pakkanen (7d76c86)
+
+	* Added class to do ini file parsing.
+
+2013-06-06 08:46:25 +0000 Michi Henning (070224f)
+
+	* Removed Version class and hoisted version functions into unity::api
+          namespace. Fixed doc accordingly.
+
+2013-06-06 11:05:20 +1000 Michi Henning (cfe7792)
+
+	* Removed Version class and hoisted version functions into unity/api
+          namespace. Fixed doc accordingly.
+
+2013-06-05 17:02:57 +0200 Michael Zanetti (880d9cd)
+
+	* enable all sample data again
+
+2013-06-05 16:44:42 +0200 Michael Zanetti (188831e)
+
+	* fixed and extended tests
+
+2013-06-05 15:07:49 +0200 Michael Zanetti (32b4953)
+
+	* added LauncherModelItem, mocks and tests (still failing)
+
+2013-06-04 19:16:59 +0000 Sergio Schvezov (fbccbea)
+
+	* This project forked from lp:unity/phablet. Updating the versioning
+          to reflect that.
+
+2013-06-04 16:09:36 -0300 Sergio Schvezov (0da2f16)
+
+	* This project forked from lp:unity/phablet. Updating the versioning
+          to reflect that.
+
+2013-06-04 16:34:48 +0000 Sergio Schvezov (169cc8a)
+
+	* Releasing for saucy.
+
+2013-06-04 18:05:41 +0200 Michael Zanetti (83ccfa8)
+
+	* merge trunk
+
+2013-06-04 15:52:11 +0000 Michał Sawicz (37384f5)
+
+	* Fix Verifier.qml for more reliable qmltests.
+
+2013-06-04 16:50:08 +0200 Michał Sawicz (2d2ab45)
+
+	* Fix Verifier.qml and tst_Notifications.qml to have more reliable
+          tests
+
+2013-06-04 16:01:51 +0200 Michał Sawicz (c9fee86)
+
+	* add some debugs
+
+2013-06-04 02:17:13 -0300 Sergio Schvezov (25e944c)
+
+	* Releasing for saucy.
+
+2013-05-30 22:22:50 +1000 Michi Henning (9d9de54)
+
+	* Renamed DllExport.h to SymbolExport.h
+
+2013-05-30 08:50:02 +1000 Michi Henning (8fde182)
+
+	* Renamed config.h -> DllExport.h. Removed Version.h.cmake, which is
+          was moldy oldie, now called Version.h.in.
+
+2013-05-29 19:04:51 +1000 Michi Henning (91d4185)
+
+	* Jenkins got upset about the libunity-api0.install instructions.
+          Hopefully, this will fix it.
+
+2013-05-29 18:44:01 +1000 Michi Henning (39eb773)
+
+	* Updated the package config files as suggested by Jussi.
+
+2013-05-29 08:42:41 +0000 Michi Henning (af7b470)
+
+	* Moved ResourcePtr from internal namespace into public namespace, so
+          it can be re-used by components outside libunity-api.
+
+2013-05-29 14:45:19 +1000 Michi Henning (c478615)
+
+	* Moved ResourcePtr from internal namespace into public namespace, so
+          it can be re-used by components outside libunity-api.
+
+2013-05-27 12:40:31 +0200 Michael Zanetti (f14f7fc)
+
+	* second version of the launcher api draft
+
+2013-05-27 16:02:25 +1000 Michi Henning (e5466b0)
+
+	* Added missing architecture directory to package config.
+
+2013-05-22 10:57:32 +0000 Michi Henning (bb1ac2a)
+
+	* Fixed check_copyright.sh to not generate bogus reports for
+          generated files when building in release or coverage mode.
+          Removed check_whitespace.sh, which is obsolete now. (Same
+          job is now done by check_whitespace.py.).
+
+2013-05-22 09:02:55 +1000 Michi Henning (4dda452)
+
+	* Fixed check_copyright.sh to not generate bogus reports for
+          generated files when building in release or coverage mode.
+          Removed check_whitespace.sh, which is obsolete now. (Same
+          job is now done by check_whitespace.py.)
+
+2013-05-21 08:58:48 +0000 Michi Henning (7440308)
+
+	* Made daemonize_me() more robust when called at the file descriptor
+          limit and when memory is low. Provided strong exception
+          guarantee for a few more corner cases. Fixed coverage test
+          for this to not report nonsense. (Previous version had
+          race conditions; depending on timing, coverage report was
+          either OK or reported covered things as uncovered.)
+          Improved test to make sure SIGHUP is correctly restored.
+          Fixed build errors in release mode due to unused return
+          values.
+
+2013-05-21 08:51:15 +1000 Michi Henning (8be5f7b)
+
+	* Removed recovery if vector throws bad_alloc. If the process is
+          sailing this close to the wind, it'll probably die in the
+          next millisecond or so anyway, even if we recover here.
+          The added complexity isn't worth it.
+
+2013-05-21 08:42:37 +1000 Michi Henning (b0d100e)
+
+	* Replaced use of system() to create test files and directories with
+          libc file I/O calls.
+
+2013-05-20 11:49:09 +1000 Michi Henning (5bd5284)
+
+	* Made daemonize_me() more robust when called at the file descriptor
+          limit and when memory is low. Provided strong exception
+          guarantee for a few more corner cases. Fixed coverage test
+          for this to not report nonsense. (Previous version had
+          race conditions; depending on timing, coverage report was
+          either OK or reported covered things as uncovered.)
+          Improved test to make sure SIGHUP is correctly restored.
+          Fixed build errors in release mode due to unused return
+          values.
+
+2013-05-17 12:10:20 +0200 Michael Zanetti (bc211d6)
+
+	* first draft of the launcher API. To be discussed.
+
+2013-05-17 11:06:29 +1000 Michi Henning (7e4edb6)
+
+	* Added strong exception guarantee if working directory was changed
+          and first fork fails.
+
+2013-05-17 00:28:40 +0000 Michał Sawicz (2690ac8)
+
+	* add shell Notifications API and tests.
+
+2013-05-17 00:13:21 +0000 Michał Sawicz (167b15e)
+
+	* add QmlTest.cmake and qml TestUtil module.
+
+2013-05-16 13:08:34 +0000 Michał Sawicz (89d1c2e)
+
+	* fix some packaging issues and enable multiarch.
+
+2013-05-16 12:57:06 +0000 Michi Henning (f96c9d7)
+
+	* Updated version semantics to state that only major version change
+          indicates ABI incompatibility.
+
+2013-05-16 21:48:42 +1000 Michi Henning (e80b5b0)
+
+	* Updated version semantics to state that only major version change
+          indicates ABI incompatibility.
+
+2013-05-16 12:24:52 +0200 Michał Sawicz (7e2e35d)
+
+	* protect ModelInterface and SourceInterface c'tors, too
+
+2013-05-16 09:49:13 +0000 Jussi Pakkanen (2276afa)
+
+	* Make line numbers start with 1 rather than 0.
+
+2013-05-16 12:14:49 +0300 Jussi Pakkanen (0540f18)
+
+	* Start line numbering at 1 rather than 0.
+
+2013-05-16 08:19:08 +0000 Michi Henning (713c1dd)
+
+	* Added generated tests to cppcheck so we don't get bogus reports for
+          unused functions. Enabled inline suppression of cppcheck
+          errors. Changed formatting of cppcheck output to include
+          the name of an error, which makes it easier to write
+          inline suppressions.
+
+2013-05-16 09:51:36 +0200 Michał Sawicz (7c992ff)
+
+	* Protect NotificationInterface constructor and tweak doxygen
+          comments
+
+2013-05-16 09:43:20 +0200 Michi Henning (85078af)
+
+	* doc fixes
+
+2013-05-16 09:15:29 +0200 Michi Henning (2c006ce)
+
+	* Added generated tests to cppcheck so we don't get bogus reports for
+          unused functions. Enabled inline suppression of cppcheck
+          errors. Changed formatting of cppcheck output to include
+          the name of an error, which makes it easier to write
+          inline suppressions.
+
+2013-05-16 09:08:55 +0200 Michał Sawicz (928a343)
+
+	* add cppcheck suppression to MockActionModel::rowCount
+
+2013-05-16 09:03:24 +0200 Michał Sawicz (c08d838)
+
+	* merge trunk
+
+2013-05-16 06:53:27 +0000 Michi Henning (9c96813)
+
+	* Modified includechecker.py to permit a specified set of includes
+          for a particular sub-tree. This makes it possible to
+          #include things from Qt in the include files for the shell
+          interface, but still flag them as illegal for other
+          include files. Also moved includechecker.py to the
+          test/headers directory because that's were the other
+          header-related tests are.
+
+2013-05-16 08:40:53 +0200 Michał Sawicz (32372be)
+
+	* merge add-qmltest-util
+
+2013-05-16 08:36:37 +0200 Michał Sawicz (8748dbe)
+
+	* fix import path
+
+2013-05-16 08:29:38 +0200 Michał Sawicz (bca2c0e)
+
+	* rename "util" to "qmltest"
+
+2013-05-15 21:56:05 +0000 Michi Henning (a869ec5)
+
+	* Removed include/unity/scopes subdirectory that shouldn't have been
+          there. (If anywhere, that dir will eventually go into
+          unity/api and unity/shell.).
+
+2013-05-16 07:48:58 +1000 Michi Henning (226dd25)
+
+	* Fixed broken modifications to includecheck.py (thanks Sawicz!)
+
+2013-05-16 07:06:32 +1000 Michi Henning (83899d2)
+
+	* Removed left-behind line for now non-existent include directory.
+
+2013-05-15 15:42:26 +0200 Michał Sawicz (f877757)
+
+	* convert the slots to signals to ensure asynchronicity
+
+2013-05-15 15:28:40 +0200 Michał Sawicz (0b3df92)
+
+	* send hovered and displayed values to onHovered / onDisplayed and
+          add documentation
+
+2013-05-15 10:35:10 +0200 Michał Sawicz (47b88b0)
+
+	* merge add-qmltest-util
+
+2013-05-15 10:34:31 +0200 Michał Sawicz (795f728)
+
+	* fix passing PROPERTIES to add_qml_test
+
+2013-05-15 09:39:52 +0200 Michał Sawicz (f047692)
+
+	* merge add-testutil-module
+
+2013-05-15 09:33:03 +0200 Michał Sawicz (106eab0)
+
+	* move TestUtil module under test/
+
+2013-05-15 07:29:56 +0000 Michi Henning (b9ac3c5)
+
+	* Changed build to build*, so things like buildcoverage and
+          buildrelease will be ignored and won't cause complaints
+          when trying to commit.
+
+2013-05-15 12:11:19 +1000 Michi Henning (38bb72e)
+
+	* Changed build to build*, so things like buildcoverage and
+          buildrelease will be ignored and won't cause complaints
+          when trying to commit.
+
+2013-05-15 12:05:18 +1000 Michi Henning (844693f)
+
+	* Removed stale directories that shouldn't have been there in the
+          first place.
+
+2013-05-15 09:21:45 +1000 Michi Henning (f25f359)
+
+	* Modified includechecker.py to permit a specified set of includes
+          for a particular sub-tree. This makes it possible to
+          #include things from Qt in the include files for the shell
+          interface, but still flag them as illegal for other
+          include fieles. Also moved includechecker.py to the
+          test/headers directory because that's were the other
+          header-related tests are.
+
+2013-05-14 10:31:52 +0200 Michał Sawicz (3eb3de2)
+
+	* use separate SOVERSION
+
+2013-05-14 10:15:11 +0200 Michał Sawicz (4c91371)
+
+	* merge add-qmltest-utils
+
+2013-05-14 10:13:38 +0200 Michał Sawicz (2781802)
+
+	* add one more missed dep
+
+2013-05-14 10:12:15 +0200 Michał Sawicz (c1492bb)
+
+	* fix c++ and naming style
+
+2013-05-14 09:43:28 +0200 Michał Sawicz (2389eee)
+
+	* merge add-qmltest-utils
+
+2013-05-14 09:42:19 +0200 Michał Sawicz (8f66aad)
+
+	* add global -DQT_NO_KEYWORDS
+
+2013-05-14 09:38:51 +0200 Michał Sawicz (c117274)
+
+	* merge fix-packaging
+
+2013-05-14 09:36:51 +0200 Michał Sawicz (bd63de5)
+
+	* depend on python3 directly
+
+2013-05-14 09:36:19 +0200 Michał Sawicz (8f45da8)
+
+	* add missing dependencies
+
+2013-05-14 09:27:01 +0200 Michał Sawicz (2662e2d)
+
+	* fix style issues
+
+2013-05-14 07:23:12 +0000 Michi Henning (72a5e5c)
+
+	* Updated CTestCustom.cmake.in to not run tests under valgrind for
+          which valgrind doesn't make sense, such as all the scripts
+          that test headers for various forbidden things. Also
+          removed stale entries left over from the move from the
+          phablet tree.
+
+2013-05-14 09:19:00 +0200 Michał Sawicz (fa1f6f1)
+
+	* merge trunk
+
+2013-05-14 07:12:45 +0000 Michi Henning (5a4ab1c)
+
+	* Minor fixed to README and INSTALL files.
+
+2013-05-14 14:50:08 +1000 Michi Henning (67c4c98)
+
+	* Minor updates to build instructions.
+
+2013-05-14 14:32:06 +1000 Michi Henning (e6077cd)
+
+	* Removed tests for which valgrind doesn't make sense from the
+          valgrind target.
+
+2013-05-13 23:27:43 +0000 Michał Sawicz (b5a5053)
+
+	* bring changes from lp:unity/phablet in bulk.
+
+2013-05-13 23:15:14 +0000 Michał Sawicz (b56e877)
+
+	* add packaging, remove test failing in build environment and fix
+          CMakeLists.txt.
+
+2013-05-13 18:11:09 +0200 Michał Sawicz (618fd01)
+
+	* merge fix-packaging
+
+2013-05-13 18:04:04 +0200 Michał Sawicz (967dbd1)
+
+	* enable multiarch installation
+
+2013-05-13 18:03:51 +0200 Michał Sawicz (318d3b6)
+
+	* reduce lintian and dpkg warnings
+
+2013-05-13 17:55:56 +0200 Michał Sawicz (cfbc781)
+
+	* drop Qt define from base CMakeLists.txt
+
+2013-05-13 17:29:20 +0200 Michał Sawicz (699b55e)
+
+	* packaging changes for shell API inclusion
+
+2013-05-13 17:27:42 +0200 Michał Sawicz (f5ec1d5)
+
+	* add mock Notifications implementation
+
+2013-05-13 17:27:29 +0200 Michał Sawicz (9f7f5be)
+
+	* add Notifications shell API headers
+
+2013-05-13 17:18:30 +0200 Michał Sawicz (bd8aeae)
+
+	* add Notifications shell API tests
+
+2013-05-13 16:31:11 +0200 Michał Sawicz (b6367d8)
+
+	* add QmlTest and TestUtil module
+
+2013-05-13 14:37:12 +0200 Michał Sawicz (ad3f085)
+
+	* merge packaging
+
+2013-05-13 14:24:19 +0200 Michał Sawicz (892b498)
+
+	* dummy commit
+
+2013-05-13 14:22:20 +0200 Michał Sawicz (33afde9)
+
+	* add packaging, remove test failing in build environment and fix
+          CMakeLists.txt
+
+2013-05-13 13:39:49 +0200 Michał Sawicz (bb30f2f)
+
+	* bring changes from lp:unity/phablet in bulk
+
+2013-04-03 12:01:36 +1000 Michi Henning (6d7aa27)
+
+	* Improved doc for Version.h
+
+2013-04-03 11:25:45 +1000 Michi Henning (60ab12d)
+
+	* Moved Exception.cpp and UnityExceptions.cpp into correct place in
+          directory hierarchy. Minor fixes to cmake files.
+
+2013-04-03 11:09:04 +1000 Michi Henning (47a0929)
+
+	* Fixed warnings from doxygen about undocumented methods.
+
+2013-04-03 11:00:12 +1000 Michi Henning (c62f274)
+
+	* Merged trunk.
+
+2013-04-03 08:52:05 +1000 Michi Henning (d8617ba)
+
+	* Fixed doxygen config to include generated headers. Suppressed
+          doxygen chatter on stdout during build. Improved
+          documentation for Version.cpp.
+
+2013-04-03 08:26:35 +1000 Michi Henning (442fae3)
+
+	* Removed dependency on boost threads library from ResourcePtr. Added
+          LockAdopter helper class to ResourcePtr.
+
+2013-04-02 13:20:35 +1000 Michi Henning (bd82f79)
+
+	* Added final and override keywords as appropriate.
+
+2013-04-02 12:49:04 +1000 Michi Henning (3f24320)
+
+	* Improved tests for move constructor and move assignment operator.
+
+2013-03-28 16:10:55 +1000 Michi Henning (add0fbc)
+
+	* Improved move copy and move assignment to use std::move.
+
+2013-03-27 08:33:35 +1000 Michi Henning (a1c1f71)
+
+	* Fixed typo in doc.
+
+2013-03-27 08:07:23 +1000 Michi Henning (d5c7b1c)
+
+	* Changed close_open_fiels() to not throw.
+
+2013-03-27 07:53:21 +1000 Michi Henning (9df57fe)
+
+	* Added TODO for hash.
+
+2013-03-27 07:40:56 +1000 Michi Henning (730e912)
+
+	* More doc improvements.
+
+2013-03-27 06:55:55 +1000 Michi Henning (bac5bb0)
+
+	* Improved documentation.
+
+2013-03-27 06:18:59 +1000 Michi Henning (484b16f)
+
+	* Added coverage for DefinesPtrs.
+
+2013-03-27 05:31:48 +1000 Michi Henning (39f6ae6)
+
+	* Merged CMake work.
+
+2013-03-26 20:57:35 +1000 Michi Henning (2a9f46d)
+
+	* Changed FileIO to allow empty files to be read.
+
+2013-03-26 11:27:40 +0200 Jussi Pakkanen (6f05f1d)
+
+	* Use the REQUIRED flag instead of checking manually.
+
+2013-03-18 10:56:00 +0200 Jussi Pakkanen (f2d81b3)
+
+	* Build GTest directly instead of using ExternalProject.
+
+2013-03-18 10:24:10 +0200 Jussi Pakkanen (3248dc6)
+
+	* Do not require Doxygen.
+
+2013-03-15 21:58:32 +0200 Jussi Pakkanen (88579a8)
+
+	* Properly detect threading library instead of just using it blindly.
+
+2013-03-15 21:25:22 +1000 Michi Henning (bd95e61)
+
+	* Changed location of output file for daemon test to current dir
+          (used to be /tmp).
+
+2013-03-15 21:14:42 +1000 Michi Henning (f8946ab)
+
+	* More cleanup for cmake.
+
+2013-03-14 22:25:53 +1000 Michi Henning (1f33e2f)
+
+	* Added new api namespace and adjusted tree structure. Many cleanups
+          on the cmake files.
+
+2013-03-14 18:43:39 +1000 Michi Henning (472ad29)
+
+	* Moved a lot of Doxygen comments out of header file.
+
+2013-03-14 18:42:15 +1000 Michi Henning (4bf8667)
+
+	* Fixed incorrect swap call. (Non-member swap() had no coverage.)`
+
+2013-03-14 18:41:40 +1000 Michi Henning (9031876)
+
+	* Removed redundant template<> lines.
+
+2013-03-14 18:41:19 +1000 Michi Henning (a517384)
+
+	* Removed left-behind #if 0.
+
+2013-03-14 18:40:09 +1000 Michi Henning (89686f2)
+
+	* Backed out gcc 4.6 fix, we won't be using that compiler. Removed
+          left-behind #if 0 section.
+
+2013-03-14 03:59:05 +1000 Michi Henning (389c339)
+
+	* Some renaming in ResourcePtr and documentation improvements. More
+          tests.
+
+2013-03-14 01:33:30 +1000 Michi Henning (2a36cd4)
+
+	* Updated for new build directory naming convention.
+
+2013-03-14 01:31:51 +1000 Michi Henning (616d5bb)
+
+	* More minor fixes to cmake files, mainly to add back missing
+          dependency on libgtest.a.
+
+2013-03-13 21:25:50 +1000 Michi Henning (c86d2e1)
+
+	* Fixed cmake issues with Jussi's help.
+
+2013-03-10 13:07:33 +1000 Michi Henning (8dc9ea1)
+
+	* Minor renaming for clarity. Fixed race condition with
+          get_deleter(). Added deleter to the members swapped by
+          swap().
+
+2013-03-08 05:29:01 +1000 Michi Henning (0ba7c29)
+
+	* Moved doxygen comments out of line so the class definition is more
+          readable. Reordered member functions to be group more
+          logically.
+
+2013-03-07 17:57:08 +1000 Michi Henning (5e8cb5a)
+
+	* Fixed ambiguous comment.
+
+2013-03-07 17:55:03 +1000 Michi Henning (e289c16)
+
+	* Fixed off-by-one error.
+
+2013-03-07 13:21:49 +1000 Michi Henning (ce369e5)
+
+	* Minor fix for bug in gcc 4.6.
+
+2013-03-07 14:35:58 +1000 Michi Henning (1da3129)
+
+	* Initial check-in of build-environment skeleton.
+

@@ -1,0 +1,74 @@
+Source: lomiri-api
+Priority: optional
+Section: libs
+Maintainer: Debian UBports Team <team+ubports@tracker.debian.org>
+Uploaders:
+ Mike Gabriel <sunweaver@debian.org>,
+Build-Depends: cmake,
+               cmake-extras,
+               dbus-test-runner,
+               debhelper-compat (= 13),
+               devscripts,
+               lsb-release,
+               doxygen,
+               graphviz,
+               libglib2.0-dev,
+               libgtest-dev,
+               google-mock,
+               libqtdbustest1-dev,
+               pkg-config,
+               python3:any,
+               qtbase5-dev (>= 5.5),
+               qtdeclarative5-dev,
+               qtdeclarative5-dev-tools,
+               qml-module-qtquick2,
+               qml-module-qttest,
+               symlinks,
+               rdfind,
+               pkg-kde-tools,
+Standards-Version: 4.5.0
+Rules-Requires-Root: no
+Homepage: https://gitlab.com/ubports/core/lomiri-api/
+Vcs-Git: https://salsa.debian.org/ubports-team/lomiri-api.git
+Vcs-Browser: https://salsa.debian.org/ubports-team/lomiri-api/
+
+Package: liblomiri-api0
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends},
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+Description: API for Lomiri shell integration (shared library)
+ Lomiri Operating Environment is a convergent work shell designed
+ for use cases on phone, tablet or desktop devices.
+ .
+ Lomiri API Library for integrating with the Lomiri shell.
+ .
+ This package contains the shared library.
+
+Package: liblomiri-api-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: liblomiri-api0 (= ${binary:Version}),
+         ${misc:Depends},
+Description: API for Lomiri shell integration (development headers)
+ Lomiri Operating Environment is a convergent work shell designed
+ for use cases on phone, tablet or desktop devices.
+ .
+ Lomiri API Library for integrating with the Lomiri shell.
+ .
+ This package contains the development files.
+
+Package: liblomiri-api-doc
+Section: doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends},
+Description: API for Lomiri shell integration (documentation)
+ Lomiri Operating Environment is a convergent work shell designed
+ for use cases on phone, tablet or desktop devices.
+ .
+ Lomiri API Library for integrating with the Lomiri shell.
+ .
+ This package contains the API documentation.

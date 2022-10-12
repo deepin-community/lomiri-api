@@ -1,0 +1,14 @@
+Description: Disable GioMemory_test. Crashes with SIGTRAP on Debian's buildds.
+Author: Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
+
+--- a/test/gtest/lomiri/util/CMakeLists.txt
++++ b/test/gtest/lomiri/util/CMakeLists.txt
+@@ -1,7 +1,7 @@
+ add_subdirectory(Daemon)
+ add_subdirectory(DefinesPtrs)
+ add_subdirectory(FileIO)
+-add_subdirectory(GioMemory)
++#add_subdirectory(GioMemory)
+ add_subdirectory(GlibMemory)
+ add_subdirectory(GObjectMemory)
+ add_subdirectory(IniParser)

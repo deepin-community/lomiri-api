@@ -1,0 +1,3 @@
+usr/include/lomiri/*
+usr/lib/*/liblomiri-api.so
+usr/lib/*/pkgconfig/*.pc

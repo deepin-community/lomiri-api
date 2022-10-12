@@ -1,0 +1,49 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+export DPKG_GENSYMBOLS_CHECK_LEVEL=4
+
+export CC=$(DEB_HOST_GNU_TYPE)-gcc
+export CXX=$(DEB_HOST_GNU_TYPE)-g++
+
+# http://ccache.samba.org/manual.html#_precompiled_headers
+export CCACHE_SLOPPINESS=time_macros
+
+include /usr/share/dpkg/buildflags.mk
+# see FEATURE AREAS in dpkg-buildflags(1)
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+export QT_SELECT := 5
+
+%:
+	dh $@ --with pkgkde_symbolshelper
+
+override_dh_install:
+	mkdir -p "$(CURDIR)/debian/tmp/usr/share/doc/liblomiri-api-doc/html/"
+	mv $(CURDIR)/debian/tmp/usr/share/doc/liblomiri-api/* $(CURDIR)/debian/tmp/usr/share/doc/liblomiri-api-doc/html/
+	find "$(CURDIR)/debian/tmp/usr/share/doc/liblomiri-api-doc/html/" -name *.md5 -delete; \
+	rdfind -makesymlinks true "$(CURDIR)/debian/tmp/usr/share/doc/liblomiri-api-doc/html/"; \
+	symlinks -rc "$(CURDIR)/debian/tmp/usr/share/doc/liblomiri-api-doc/html/"; \
+
+	dh_install
+
+override_dh_installchangelogs:
+	dh_installchangelogs NEWS
+
+override_dh_missing:
+	dh_missing --fail-missing
+
+override_dh_auto_test:
+	mkdir -p $(CURDIR)/debian/test-home/.local/share
+	export HOME=$(CURDIR)/debian/test-home \
+	    && export XDG_DATA_HOME=$(CURDIR)/debian/test-home/.local/share \
+	    && dbus-test-runner --keep-env --bus-type=both -m 300 -t dh_auto_test
+
+override_dh_clean:
+	rm -Rfv $(CURDIR)/debian/test-home/
+	dh_clean
+
+get-orig-source:
+	uscan --noconf --force-download --rename --download-current-version --destdir=..

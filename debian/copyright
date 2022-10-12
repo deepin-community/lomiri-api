@@ -1,0 +1,257 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: lomiri-api
+Upstream-Contact: Marius Grispgard <me@mariogrip.com>
+Source: https://gitlab.com/ubports/core/lomiri-api/
+
+Files: .gitignore
+ CMakeLists.txt
+ ChangeLog
+ CTestCustom.cmake.in
+ Jenkinsfile
+ NEWS
+ astyle-config
+ cmake/modules/PrecompiledHeaders.cmake
+ cmake/modules/QmlTest.cmake
+ data/CMakeLists.txt
+ data/lomiri-shell-api.pc.in
+ include/CMakeLists.txt
+ include/lomiri/CMakeLists.txt
+ include/lomiri/api/internal/.gitkeep
+ include/lomiri/internal/.gitkeep
+ include/lomiri/shell/CMakeLists.txt
+ include/lomiri/shell/application/CMakeLists.txt
+ include/lomiri/shell/launcher/CMakeLists.txt
+ include/lomiri/shell/notifications/CMakeLists.txt
+ include/lomiri/util/CMakeLists.txt
+ src/CMakeLists.txt
+ src/lomiri/CMakeLists.txt
+ src/lomiri/api/CMakeLists.txt
+ src/lomiri/api/internal/CMakeLists.txt
+ src/lomiri/internal/CMakeLists.txt
+ src/lomiri/util/CMakeLists.txt
+ src/lomiri/util/internal/CMakeLists.txt
+ test/CMakeLists.txt
+ test/copyright/CMakeLists.txt
+ test/data/sample.ini
+ test/gtest/CMakeLists.txt
+ test/gtest/lomiri/CMakeLists.txt
+ test/gtest/lomiri/api/CMakeLists.txt
+ test/gtest/lomiri/api/Version/CMakeLists.txt
+ test/gtest/lomiri/util/CMakeLists.txt
+ test/gtest/lomiri/util/Daemon/CMakeLists.txt
+ test/gtest/lomiri/util/Dbus/CMakeLists.txt
+ test/gtest/lomiri/util/DefinesPtrs/CMakeLists.txt
+ test/gtest/lomiri/util/FileIO/CMakeLists.txt
+ test/gtest/lomiri/util/GObjectMemory/CMakeLists.txt
+ test/gtest/lomiri/util/GioMemory/CMakeLists.txt
+ test/gtest/lomiri/util/GlibMemory/CMakeLists.txt
+ test/gtest/lomiri/util/IniParser/CMakeLists.txt
+ test/gtest/lomiri/util/ResourcePtr/CMakeLists.txt
+ test/gtest/lomiri/util/SnapPath/CMakeLists.txt
+ test/gtest/lomiri/util/internal/CMakeLists.txt
+ test/headers/CMakeLists.txt
+ test/lomiri-api-test-config.h.in
+ test/qmltest/CMakeLists.txt
+ test/qmltest/lomiri/CMakeLists.txt
+ test/qmltest/lomiri/shell/CMakeLists.txt
+ test/qmltest/mocks/CMakeLists.txt
+ test/qmltest/mocks/plugins/Lomiri/Application/CMakeLists.txt
+ test/qmltest/mocks/plugins/Lomiri/Application/qmldir
+ test/qmltest/mocks/plugins/Lomiri/Launcher/CMakeLists.txt
+ test/qmltest/mocks/plugins/Lomiri/Launcher/qmldir
+ test/qmltest/mocks/plugins/Lomiri/Notifications/CMakeLists.txt
+ test/qmltest/mocks/plugins/Lomiri/Notifications/Mocks/CMakeLists.txt
+ test/qmltest/mocks/plugins/Lomiri/Notifications/Mocks/qmldir
+ test/qmltest/mocks/plugins/Lomiri/Notifications/qmldir
+ test/qmltest/modules/CMakeLists.txt
+ test/qmltest/modules/TestUtil/CMakeLists.txt
+ test/qmltest/modules/TestUtil/qmldir
+ test/whitespace/CMakeLists.txt
+ valgrind-suppress
+Copyright: 2012-2017, Canonical Ltd.
+License: LGPL-3
+Comment:
+ Files lack license headers. Assuming copyright holdership
+ and license from rest of code files.
+
+Files: INSTALL
+ README
+ data/liblomiri-api.pc.in
+ include/lomiri/Exception.h
+ include/lomiri/LomiriExceptions.h
+ include/lomiri/SymbolExport.h
+ include/lomiri/shell/application/ApplicationInfoInterface.h
+ include/lomiri/shell/application/ApplicationManagerInterface.h
+ include/lomiri/shell/application/MirMousePointerInterface.h
+ include/lomiri/shell/launcher/AppDrawerModelInterface.h
+ include/lomiri/shell/launcher/LauncherItemInterface.h
+ include/lomiri/shell/launcher/LauncherModelInterface.h
+ include/lomiri/shell/launcher/QuickListModelInterface.h
+ include/lomiri/shell/notifications/Enums.h
+ include/lomiri/shell/notifications/ModelInterface.h
+ include/lomiri/shell/notifications/NotificationInterface.h
+ include/lomiri/shell/notifications/SourceInterface.h
+ include/lomiri/util/Daemon.h
+ include/lomiri/util/DefinesPtrs.h
+ include/lomiri/util/FileIO.h
+ include/lomiri/util/GObjectMemory.h
+ include/lomiri/util/GioMemory.h
+ include/lomiri/util/GlibMemory.h
+ include/lomiri/util/IniParser.h
+ include/lomiri/util/NonCopyable.h
+ include/lomiri/util/ResourcePtr.h
+ include/lomiri/util/SnapPath.h
+ include/lomiri/util/internal/DaemonImpl.h
+ src/lomiri/Exception.cpp
+ src/lomiri/LomiriExceptions.cpp
+ src/lomiri/api/Version.cpp
+ src/lomiri/util/Daemon.cpp
+ src/lomiri/util/FileIO.cpp
+ src/lomiri/util/IniParser.cpp
+ src/lomiri/util/SnapPath.cpp
+ src/lomiri/util/internal/DaemonImpl.cpp
+ src/pch/lomiriapi_pch.hh
+ test/gtest/lomiri/Exceptions_test.cpp
+ test/gtest/lomiri/api/Version/Version_test.cpp
+ test/gtest/lomiri/util/Daemon/Daemon_test.cpp
+ test/gtest/lomiri/util/Daemon/daemon-tester.py
+ test/gtest/lomiri/util/DefinesPtrs/DefinesPtrs_test.cpp
+ test/gtest/lomiri/util/FileIO/FileIO_test.cpp
+ test/gtest/lomiri/util/GObjectMemory/GObjectMemory_test.cpp
+ test/gtest/lomiri/util/GioMemory/GioMemory_test.cpp
+ test/gtest/lomiri/util/GlibMemory/GlibMemory_test.cpp
+ test/gtest/lomiri/util/IniParser/IniParser_test.cpp
+ test/gtest/lomiri/util/ResourcePtr/ResourcePtr_test.cpp
+ test/gtest/lomiri/util/SnapPath/SnapPath_test.cpp
+ test/headers/check_public_headers.py
+ test/headers/includechecker.py
+ test/qmltest/lomiri/shell/application/tst_Application.qml
+ test/qmltest/lomiri/shell/launcher/tst_Launcher.qml
+ test/qmltest/lomiri/shell/notifications/tst_Notifications.qml
+ test/qmltest/mocks/plugins/Lomiri/Application/Mocks/MockApplicationInfo.cpp
+ test/qmltest/mocks/plugins/Lomiri/Application/Mocks/MockApplicationInfo.h
+ test/qmltest/mocks/plugins/Lomiri/Application/Mocks/MockApplicationManager.cpp
+ test/qmltest/mocks/plugins/Lomiri/Application/Mocks/MockApplicationManager.h
+ test/qmltest/mocks/plugins/Lomiri/Application/TestApplicationPlugin.cpp
+ test/qmltest/mocks/plugins/Lomiri/Application/TestApplicationPlugin.h
+ test/qmltest/mocks/plugins/Lomiri/Launcher/Mocks/MockAppDrawerModel.cpp
+ test/qmltest/mocks/plugins/Lomiri/Launcher/Mocks/MockAppDrawerModel.h
+ test/qmltest/mocks/plugins/Lomiri/Launcher/Mocks/MockLauncherItem.cpp
+ test/qmltest/mocks/plugins/Lomiri/Launcher/Mocks/MockLauncherItem.h
+ test/qmltest/mocks/plugins/Lomiri/Launcher/Mocks/MockLauncherModel.cpp
+ test/qmltest/mocks/plugins/Lomiri/Launcher/Mocks/MockLauncherModel.h
+ test/qmltest/mocks/plugins/Lomiri/Launcher/Mocks/MockQuickListModel.cpp
+ test/qmltest/mocks/plugins/Lomiri/Launcher/Mocks/MockQuickListModel.h
+ test/qmltest/mocks/plugins/Lomiri/Launcher/TestLauncherPlugin.cpp
+ test/qmltest/mocks/plugins/Lomiri/Launcher/TestLauncherPlugin.h
+ test/qmltest/mocks/plugins/Lomiri/Notifications/Mocks/MockActionModel.cpp
+ test/qmltest/mocks/plugins/Lomiri/Notifications/Mocks/MockActionModel.h
+ test/qmltest/mocks/plugins/Lomiri/Notifications/Mocks/MockModel.cpp
+ test/qmltest/mocks/plugins/Lomiri/Notifications/Mocks/MockModel.h
+ test/qmltest/mocks/plugins/Lomiri/Notifications/Mocks/MockNotification.cpp
+ test/qmltest/mocks/plugins/Lomiri/Notifications/Mocks/MockNotification.h
+ test/qmltest/mocks/plugins/Lomiri/Notifications/Mocks/MockNotificationsPlugin.cpp
+ test/qmltest/mocks/plugins/Lomiri/Notifications/Mocks/MockNotificationsPlugin.h
+ test/qmltest/mocks/plugins/Lomiri/Notifications/Mocks/MockSource.cpp
+ test/qmltest/mocks/plugins/Lomiri/Notifications/Mocks/MockSource.h
+ test/qmltest/mocks/plugins/Lomiri/Notifications/TestNotificationsPlugin.cpp
+ test/qmltest/mocks/plugins/Lomiri/Notifications/TestNotificationsPlugin.h
+ test/qmltest/modules/TestUtil/TestUtil.cpp
+ test/qmltest/modules/TestUtil/TestUtil.h
+ test/qmltest/modules/TestUtil/TestUtilPlugin.cpp
+ test/qmltest/modules/TestUtil/TestUtilPlugin.h
+ test/qmltest/modules/TestUtil/Verifier.qml
+ test/qmltest/modules/TestUtil/test/MockObjectForInstanceOfTest.qml
+ test/qmltest/modules/TestUtil/test/MockObjectForInstanceOfTestChild.qml
+ test/qmltest/modules/TestUtil/test/tst_TestUtil.qml
+Copyright: 2013, 2015, Canonical Ltd.
+  2013, 2015-2016, Canonical Ltd.
+  2013, 2016, Canonical Ltd.
+  2013, Canonical Ltd.
+  2013-2016, Canonical Ltd.
+  2013-2017, Canonical Ltd.
+  2013-2106, Canonical Ltd.
+  2016, Canonical Ltd.
+  2017, Canonical Ltd.
+  2012, Canonical Ltd
+  2013, Canonical Ltd
+  2016-2017, Canonical Ltd
+  2017, Canonical Ltd
+  2012-2013, Canonical, Ltd.
+  2013, Canonical, Ltd.
+  2015-2016, Canonical, Ltd.
+License: LGPL-3
+
+Files: include/lomiri/shell/application/Mir.h
+ include/lomiri/shell/application/MirPlatformCursor.h
+ include/lomiri/shell/application/MirSurfaceInterface.h
+ include/lomiri/shell/application/MirSurfaceItemInterface.h
+ include/lomiri/shell/application/MirSurfaceListInterface.h
+ include/lomiri/shell/application/SurfaceManagerInterface.h
+Copyright: 2015, Canonical, Ltd.
+  2015-2016, Canonical, Ltd.
+  2016, Canonical, Ltd.
+License: GPL-3
+
+Files: include/lomiri/api/Version.h.in
+ test/copyright/check_copyright.sh
+ test/headers/compile_headers.py
+ test/whitespace/check_whitespace.py
+Copyright: 2013, Canonical Ltd
+License: LGPL-3
+Comment:
+ Generated files.
+
+Files: doc/Doxyfile.in
+ include/lomiri/api/CMakeLists.txt
+ lomiri-api.qmlproject
+Copyright: 2012-2017, Canonical Ltd.
+License: LGPL-3
+Comment:
+ Generated files.
+ .
+ Assuming license as found in COPYING file. Assuming copyright holdership
+ as found in the rest of the files.
+
+Files: include/lomiri/util/Dbus.h
+ src/lomiri/util/Dbus.cpp
+ test/gtest/lomiri/util/Dbus/Dbus_test.cpp
+Copyright: 2020, UBports foundation
+License: LGPL-3
+
+Files: debian/*
+Copyright: 2013, Canonical Ltd.
+  2020, Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
+License: LGPL-3 or GPL-3
+
+License: LGPL-3
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation, version 3 of the License.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU Lesser General Public License
+ version 3 can be found in the file /usr/share/common-licenses/LGPL-3.
+
+License: GPL-3
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, version 3 of the License.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 3 can be found in the file /usr/share/common-licenses/GPL-3.

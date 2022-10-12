@@ -1,0 +1,20 @@
+#
+# Tests listed here will not be run by the valgrind target.
+#
+
+SET(CTEST_CUSTOM_MEMCHECK_IGNORE
+    cleanincludes
+    stand-alone-lomiri-headers
+    stand-alone-lomiri-internal-headers
+    stand-alone-lomiri-api-headers
+    stand-alone-lomiri-api-internal-headers
+    stand-alone-lomiri-util-headers
+    stand-alone-lomiri-util-internal-headers
+    clean-public-lomiri-headers
+    clean-public-lomiri-internal-headers
+    clean-public-lomiri-api-headers
+    clean-public-lomiri-api-internal-headers
+    clean-public-lomiri-util-headers
+    clean-public-lomiri-util-internal-headers
+    copyright
+    whitespace)

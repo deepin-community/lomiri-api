@@ -1,0 +1,14 @@
+Overview of changes in lomiri-api 0.1.1
+
+  - Add multi monitor and workspace API.
+  - Add AttachedState state enum.
+  - Add D-Bus sanitize helpers.
+  - Make sure to export D-Bus and Snap APIs.
+  - GioMemory_test: print error from Glib
+  - Remove smart pointer for GRefString.
+  - Do not hardcode the actual values, and string representation
+    of errno constants, as they are implementation-defined.
+
+Overview of changes in lomiri-api 0.1.0
+
+  - Fork / renamed from unity-api.

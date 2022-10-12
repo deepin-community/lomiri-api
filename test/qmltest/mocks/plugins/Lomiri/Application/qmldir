@@ -1,0 +1,2 @@
+module Lomiri.Application
+plugin TestApplicationPlugin

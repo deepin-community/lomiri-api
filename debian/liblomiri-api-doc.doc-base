@@ -1,0 +1,9 @@
+Document: liblomiri-api-doc
+Title: Lomiri API
+Author: UBports.com
+Abstract: This document describes the Lomiri shell integration API
+Section: Programming/C++
+
+Format: HTML
+Index: /usr/share/doc/liblomiri-api-doc/html/index.html
+Files: /usr/share/doc/liblomiri-api-doc/html/*

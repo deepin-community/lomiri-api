@@ -1,0 +1,2 @@
+module Lomiri.Launcher
+plugin TestLauncherPlugin
